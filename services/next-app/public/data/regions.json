@@ -1,0 +1,1240 @@
+{
+  "Amygdaloid_body_L": {
+    "name": "Amygdala",
+    "desc": "The amygdala is a paired nuclear complex present in the cerebral hemispheres of vertebrates. It is considered part of the limbic system. In primates, it is located medially within the temporal lobes. It consists of many nuclei, each made up of further subnuclei. The subdivision most commonly made is into the basolateral, central, cortical, and medial nuclei together with the intercalated cell clusters. The amygdala has a primary role in the processing of memory, decision-making, and emotional responses. The amygdala was first identified and named by Karl Friedrich Burdach in 1822.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Amygdala"
+    ]
+  },
+  "Amygdaloid_body_R": {
+    "name": "Amygdala",
+    "desc": "The amygdala is a paired nuclear complex present in the cerebral hemispheres of vertebrates. It is considered part of the limbic system. In primates, it is located medially within the temporal lobes. It consists of many nuclei, each made up of further subnuclei. The subdivision most commonly made is into the basolateral, central, cortical, and medial nuclei together with the intercalated cell clusters. The amygdala has a primary role in the processing of memory, decision-making, and emotional responses. The amygdala was first identified and named by Karl Friedrich Burdach in 1822.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Amygdala"
+    ]
+  },
+  "Angular_gyrus_L": {
+    "name": "Angular gyrus",
+    "desc": "The angular gyrus is a region of the brain lying mainly in the posteroinferior region of the parietal lobe, occupying the posterior part of the inferior parietal lobule. It represents the Brodmann area 39.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Angular%20gyrus"
+    ]
+  },
+  "Angular_gyrus_R": {
+    "name": "Angular gyrus",
+    "desc": "The angular gyrus is a region of the brain lying mainly in the posteroinferior region of the parietal lobe, occupying the posterior part of the inferior parietal lobule. It represents the Brodmann area 39.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Angular%20gyrus"
+    ]
+  },
+  "Anterior_commissure": {
+    "name": "Anterior commissure",
+    "desc": "The anterior commissure is a white matter tract connecting the two temporal lobes of the cerebral hemispheres across the midline, and placed in front of the columns of the fornix. In all but five species of mammal the great majority of fibers connecting the two hemispheres travel through the corpus callosum, which in humans and all non-monotremes is more than 10 times larger than the anterior commissure. Other routes of communication pass through the hippocampal commissure or, indirectly, via subcortical connections. Nevertheless, the anterior commissure is a significant pathway that can be clearly distinguished in the brains of all mammals.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Anterior%20commissure"
+    ]
+  },
+  "Anterior_occipital_sulcus_L": {
+    "name": "Anterior Occipital Sulcus",
+    "desc": "",
+    "refs": []
+  },
+  "Anterior_occipital_sulcus_R": {
+    "name": "Anterior Occipital Sulcus",
+    "desc": "",
+    "refs": []
+  },
+  "Aqueduct_of_midbrain_(Cerebral_aqueduct)": {
+    "name": "Aqueduct Of Midbrain",
+    "desc": "",
+    "refs": []
+  },
+  "Calcarine_sulcus_L": {
+    "name": "Calcarine sulcus",
+    "desc": "The calcarine sulcus is an anatomical landmark located at the caudal end of the medial surface of the brain of humans and other primates. Its name comes from the Latin \"calcar\" meaning \"spur\". It is very deep, and known as a complete sulcus.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Calcarine%20sulcus"
+    ]
+  },
+  "Calcarine_sulcus_R": {
+    "name": "Calcarine sulcus",
+    "desc": "The calcarine sulcus is an anatomical landmark located at the caudal end of the medial surface of the brain of humans and other primates. Its name comes from the Latin \"calcar\" meaning \"spur\". It is very deep, and known as a complete sulcus.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Calcarine%20sulcus"
+    ]
+  },
+  "Caudate_nucleus_L": {
+    "name": "Caudate nucleus",
+    "desc": "The caudate nucleus is one of the structures that make up the corpus striatum, which is part of the basal ganglia in the human brain. Although the caudate nucleus has long been associated with motor processes because of its role in Parkinson's disease, it also plays important roles in nonmotor functions, such as procedural learning, associative learning, and inhibitory control of action. The caudate is also one of the brain structures that compose the reward system, and it functions as part of the cortico-basal ganglia-thalamo-cortical loop.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Caudate%20nucleus"
+    ]
+  },
+  "Caudate_nucleus_R": {
+    "name": "Caudate nucleus",
+    "desc": "The caudate nucleus is one of the structures that make up the corpus striatum, which is part of the basal ganglia in the human brain. Although the caudate nucleus has long been associated with motor processes because of its role in Parkinson's disease, it also plays important roles in nonmotor functions, such as procedural learning, associative learning, and inhibitory control of action. The caudate is also one of the brain structures that compose the reward system, and it functions as part of the cortico-basal ganglia-thalamo-cortical loop.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Caudate%20nucleus"
+    ]
+  },
+  "Central_sulcus_L": {
+    "name": "Central sulcus",
+    "desc": "In neuroanatomy, the central sulcus is a sulcus, or groove, in the cerebral cortex in the brains of vertebrates. It is sometimes confused with the longitudinal fissure.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Central%20sulcus"
+    ]
+  },
+  "Central_sulcus_R": {
+    "name": "Central sulcus",
+    "desc": "In neuroanatomy, the central sulcus is a sulcus, or groove, in the cerebral cortex in the brains of vertebrates. It is sometimes confused with the longitudinal fissure.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Central%20sulcus"
+    ]
+  },
+  "Cerebellum_L": {
+    "name": "Cerebellum",
+    "desc": "The cerebellum is a major feature of the hindbrain of all vertebrates. Although usually smaller than the cerebrum, in some animals such as the mormyrid fishes it may be as large as it or even larger. In humans, the cerebellum plays an important role in motor control and cognitive functions such as attention and language as well as emotional control such as regulating fear and pleasure responses, but its movement-related functions are the most solidly established. The human cerebellum does not initiate movement, but contributes to coordination, precision, and accurate timing: it receives input from sensory systems of the spinal cord and from other parts of the brain, and integrates these inputs to fine-tune motor activity. Cerebellar damage produces disorders in fine movement, equilibrium, posture, and motor learning in humans.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Cerebellum"
+    ]
+  },
+  "Cerebellum_R": {
+    "name": "Cerebellum",
+    "desc": "The cerebellum is a major feature of the hindbrain of all vertebrates. Although usually smaller than the cerebrum, in some animals such as the mormyrid fishes it may be as large as it or even larger. In humans, the cerebellum plays an important role in motor control and cognitive functions such as attention and language as well as emotional control such as regulating fear and pleasure responses, but its movement-related functions are the most solidly established. The human cerebellum does not initiate movement, but contributes to coordination, precision, and accurate timing: it receives input from sensory systems of the spinal cord and from other parts of the brain, and integrates these inputs to fine-tune motor activity. Cerebellar damage produces disorders in fine movement, equilibrium, posture, and motor learning in humans.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Cerebellum"
+    ]
+  },
+  "Cingulate_gyrus_(Posteroventral_part)_L": {
+    "name": "Cingulate cortex",
+    "desc": "The cingulate cortex is a part of the brain situated in the medial aspect of the cerebral cortex. The cingulate cortex includes the entire cingulate gyrus, which lies immediately above the corpus callosum, and the continuation of this in the cingulate sulcus. The cingulate cortex is usually considered part of the limbic lobe.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Cingulate%20cortex"
+    ]
+  },
+  "Cingulate_gyrus_(Posteroventral_part)_R": {
+    "name": "Cingulate cortex",
+    "desc": "The cingulate cortex is a part of the brain situated in the medial aspect of the cerebral cortex. The cingulate cortex includes the entire cingulate gyrus, which lies immediately above the corpus callosum, and the continuation of this in the cingulate sulcus. The cingulate cortex is usually considered part of the limbic lobe.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Cingulate%20cortex"
+    ]
+  },
+  "Cingulate_gyrus_and_sculcus_(Posterior_dorsal_part)_L": {
+    "name": "Cingulate Gyrus And Sculcus",
+    "desc": "",
+    "refs": []
+  },
+  "Cingulate_gyrus_and_sculcus_(Posterior_dorsal_part)_R": {
+    "name": "Cingulate Gyrus And Sculcus",
+    "desc": "",
+    "refs": []
+  },
+  "Cingulate_gyrus_and_sulcus_(Middle_anterior_part)_L": {
+    "name": "Cingulate Gyrus And Sulcus",
+    "desc": "",
+    "refs": []
+  },
+  "Cingulate_gyrus_and_sulcus_(Middle_anterior_part)_R": {
+    "name": "Cingulate Gyrus And Sulcus",
+    "desc": "",
+    "refs": []
+  },
+  "Cingulate_gyrus_and_sulcus_(Middle_posterior_part)_L": {
+    "name": "Cingulate Gyrus And Sulcus",
+    "desc": "",
+    "refs": []
+  },
+  "Cingulate_gyrus_and_sulcus_(Middle_posterior_part)_R": {
+    "name": "Cingulate Gyrus And Sulcus",
+    "desc": "",
+    "refs": []
+  },
+  "Cingulate_sulcus_(Marginal_part)_L": {
+    "name": "Cingulate sulcus",
+    "desc": "The cingulate sulcus is a sulcus on the cingulate cortex in the medial wall of the cerebral cortex. The frontal and parietal lobes are separated from the cingulate gyrus by the cingulate sulcus. It terminates as the marginal sulcus of the cingulate sulcus. It sends a ramus to separate the paracentral lobule from the frontal gyri, the paracentral sulcus.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Cingulate%20sulcus"
+    ]
+  },
+  "Cingulate_sulcus_(Marginal_part)_R": {
+    "name": "Cingulate sulcus",
+    "desc": "The cingulate sulcus is a sulcus on the cingulate cortex in the medial wall of the cerebral cortex. The frontal and parietal lobes are separated from the cingulate gyrus by the cingulate sulcus. It terminates as the marginal sulcus of the cingulate sulcus. It sends a ramus to separate the paracentral lobule from the frontal gyri, the paracentral sulcus.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Cingulate%20sulcus"
+    ]
+  },
+  "Circular_sulcus_of_insula_L": {
+    "name": "Insular cortex",
+    "desc": "The insular cortex is a portion of the cerebral cortex folded deep within the lateral sulcus within each hemisphere of the mammalian brain.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Insular%20cortex"
+    ]
+  },
+  "Circular_sulcus_of_insula_R": {
+    "name": "Insular cortex",
+    "desc": "The insular cortex is a portion of the cerebral cortex folded deep within the lateral sulcus within each hemisphere of the mammalian brain.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Insular%20cortex"
+    ]
+  },
+  "Collateral_sulcus_L": {
+    "name": "Collateral fissure",
+    "desc": "The collateral fissure is a large sulcus on the tentorial surface of the cerebral hemisphere and extends from near the occipital pole to within a short distance of the temporal pole. It is also known as the medial occipitotemporal sulcus.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Collateral%20fissure"
+    ]
+  },
+  "Collateral_sulcus_R": {
+    "name": "Collateral fissure",
+    "desc": "The collateral fissure is a large sulcus on the tentorial surface of the cerebral hemisphere and extends from near the occipital pole to within a short distance of the temporal pole. It is also known as the medial occipitotemporal sulcus.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Collateral%20fissure"
+    ]
+  },
+  "Corpus_callosum": {
+    "name": "Corpus callosum",
+    "desc": "The corpus callosum, also callosal commissure, is a wide, thick nerve tract, consisting of a flat bundle of commissural fibers, beneath the cerebral cortex in the brain. The corpus callosum is only found in placental mammals. It spans part of the longitudinal fissure, connecting the left and right cerebral hemispheres, enabling communication between them. It is the largest white matter structure in the human brain, about 10 cm (3.9 in) in length and consisting of 200–300 million axonal projections.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Corpus%20callosum"
+    ]
+  },
+  "Cuneus_L": {
+    "name": "Cuneus",
+    "desc": "The cuneus is a smaller lobe in the occipital lobe of the brain. The cuneus is bounded anteriorly by the parieto-occipital sulcus and inferiorly by the calcarine sulcus.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Cuneus"
+    ]
+  },
+  "Cuneus_R": {
+    "name": "Cuneus",
+    "desc": "The cuneus is a smaller lobe in the occipital lobe of the brain. The cuneus is bounded anteriorly by the parieto-occipital sulcus and inferiorly by the calcarine sulcus.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Cuneus"
+    ]
+  },
+  "Fornix_L": {
+    "name": "Fornix",
+    "desc": "Fornix may refer to:Fornix or throat scale, a bowed prolongation of the corolla in Boraginaceae \nFornix of the brain\nFornix conjunctiva, a part of the conjunctiva\nFornix vaginae, also called the vaginal fornix\nAn early type of Roman triumphal arch\n\n",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Fornix"
+    ]
+  },
+  "Fornix_R": {
+    "name": "Fornix",
+    "desc": "Fornix may refer to:Fornix or throat scale, a bowed prolongation of the corolla in Boraginaceae \nFornix of the brain\nFornix conjunctiva, a part of the conjunctiva\nFornix vaginae, also called the vaginal fornix\nAn early type of Roman triumphal arch\n\n",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Fornix"
+    ]
+  },
+  "Fourth_ventricle": {
+    "name": "Fourth ventricle",
+    "desc": "The fourth ventricle is one of the four connected fluid-filled cavities within the human brain. These cavities, known collectively as the ventricular system, consist of the left and right lateral ventricles, the third ventricle, and the fourth ventricle. The fourth ventricle extends from the cerebral aqueduct to the obex, and is filled with cerebrospinal fluid (CSF).",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Fourth%20ventricle"
+    ]
+  },
+  "Globus_pallidus_L": {
+    "name": "Globus pallidus",
+    "desc": "The globus pallidus (GP), also known as paleostriatum or dorsal pallidum, is a major component of the subcortical basal ganglia in the brain. It consists of two adjacent segments, one external, known in rodents simply as the globus pallidus, and one internal. It is part of the telencephalon, but retains close functional ties with the subthalamus in the diencephalon – both of which are part of the extrapyramidal motor system.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Globus%20pallidus"
+    ]
+  },
+  "Globus_pallidus_R": {
+    "name": "Globus pallidus",
+    "desc": "The globus pallidus (GP), also known as paleostriatum or dorsal pallidum, is a major component of the subcortical basal ganglia in the brain. It consists of two adjacent segments, one external, known in rodents simply as the globus pallidus, and one internal. It is part of the telencephalon, but retains close functional ties with the subthalamus in the diencephalon – both of which are part of the extrapyramidal motor system.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Globus%20pallidus"
+    ]
+  },
+  "Habenula": {
+    "name": "Habenula",
+    "desc": "The habenula is a small bilateral neuronal structure in the brain of vertebrates, that has also been called a microstructure since it is no bigger than a pea. The naming as little rein describes its elongated shape in the epithalamus, where it borders the third ventricle, and lies in front of the pineal gland.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Habenula"
+    ]
+  },
+  "Hippocampal_commissure": {
+    "name": "Fornix (neuroanatomy)",
+    "desc": "The fornix is a C-shaped bundle of nerve fibers in the brain that acts as the major output tract of the hippocampus. The fornix also carries some afferent fibers to the hippocampus from structures in the diencephalon and basal forebrain. The fornix is part of the limbic system. While its exact function and importance in the physiology of the brain are still not entirely clear, it has been demonstrated in humans that surgical transection—the cutting of the fornix along its body—can cause memory loss. There is some debate over what type of memory is affected by this damage, but it has been found to most closely correlate with recall memory rather than recognition memory. This means that damage to the fornix can cause difficulty in recalling long-term information such as details of past events, but it has little effect on the ability to recognize objects or familiar situations.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Fornix%20(neuroanatomy)"
+    ]
+  },
+  "Hippocampus_L": {
+    "name": "Hippocampus",
+    "desc": "The hippocampus, also hippocampus proper, is a major component of the brain of humans and many other vertebrates. In the human brain the hippocampus, the dentate gyrus, and the subiculum are components of the hippocampal formation located in the limbic system. \nThe hippocampus plays important roles in the consolidation of information from short-term memory to long-term memory, and in spatial memory that enables navigation. In humans, and other primates the hippocampus is located in the archicortex, one of the three regions of allocortex, in each hemisphere with direct neural projections to, and reciprocal indirect projections from the neocortex. The hippocampus, as the medial pallium, is a structure found in all vertebrates.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Hippocampus"
+    ]
+  },
+  "Hippocampus_R": {
+    "name": "Hippocampus",
+    "desc": "The hippocampus, also hippocampus proper, is a major component of the brain of humans and many other vertebrates. In the human brain the hippocampus, the dentate gyrus, and the subiculum are components of the hippocampal formation located in the limbic system. \nThe hippocampus plays important roles in the consolidation of information from short-term memory to long-term memory, and in spatial memory that enables navigation. In humans, and other primates the hippocampus is located in the archicortex, one of the three regions of allocortex, in each hemisphere with direct neural projections to, and reciprocal indirect projections from the neocortex. The hippocampus, as the medial pallium, is a structure found in all vertebrates.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Hippocampus"
+    ]
+  },
+  "Hypothalamus_L": {
+    "name": "Hypothalamus",
+    "desc": "The hypothalamus is a small part of the vertebrate brain that contains a number of nuclei with a variety of functions. One of the most important functions is to link the nervous system to the endocrine system via the pituitary gland. The hypothalamus is located below the thalamus and is part of the limbic system. It forms the basal part of the diencephalon. All vertebrate brains contain a hypothalamus. In humans, it is about the size of an almond.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Hypothalamus"
+    ]
+  },
+  "Hypothalamus_R": {
+    "name": "Hypothalamus",
+    "desc": "The hypothalamus is a small part of the vertebrate brain that contains a number of nuclei with a variety of functions. One of the most important functions is to link the nervous system to the endocrine system via the pituitary gland. The hypothalamus is located below the thalamus and is part of the limbic system. It forms the basal part of the diencephalon. All vertebrate brains contain a hypothalamus. In humans, it is about the size of an almond.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Hypothalamus"
+    ]
+  },
+  "Inferior_colliculus_L": {
+    "name": "Inferior colliculus",
+    "desc": "The inferior colliculus (IC) is the principal midbrain nucleus of the auditory pathway and receives input from several peripheral brainstem nuclei in the auditory pathway, as well as inputs from the auditory cortex. The inferior colliculus has three subdivisions: the central nucleus, a dorsal cortex by which it is surrounded, and an external cortex which is located laterally. Its bimodal neurons are implicated in auditory-somatosensory interaction, receiving projections from somatosensory nuclei. This multisensory integration may underlie a filtering of self-effected sounds from vocalization, chewing, or respiration activities.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Inferior%20colliculus"
+    ]
+  },
+  "Inferior_colliculus_R": {
+    "name": "Inferior colliculus",
+    "desc": "The inferior colliculus (IC) is the principal midbrain nucleus of the auditory pathway and receives input from several peripheral brainstem nuclei in the auditory pathway, as well as inputs from the auditory cortex. The inferior colliculus has three subdivisions: the central nucleus, a dorsal cortex by which it is surrounded, and an external cortex which is located laterally. Its bimodal neurons are implicated in auditory-somatosensory interaction, receiving projections from somatosensory nuclei. This multisensory integration may underlie a filtering of self-effected sounds from vocalization, chewing, or respiration activities.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Inferior%20colliculus"
+    ]
+  },
+  "Inferior_frontal_sulcus_L": {
+    "name": "Inferior frontal sulcus",
+    "desc": "The inferior frontal sulcus is a sulcus between the middle frontal gyrus and the inferior frontal gyrus.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Inferior%20frontal%20sulcus"
+    ]
+  },
+  "Inferior_frontal_sulcus_R": {
+    "name": "Inferior frontal sulcus",
+    "desc": "The inferior frontal sulcus is a sulcus between the middle frontal gyrus and the inferior frontal gyrus.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Inferior%20frontal%20sulcus"
+    ]
+  },
+  "Inferior_occipital_gyrus_and_sulcus_L": {
+    "name": "Inferior Occipital Gyrus And Sulcus",
+    "desc": "",
+    "refs": []
+  },
+  "Inferior_occipital_gyrus_and_sulcus_R": {
+    "name": "Inferior Occipital Gyrus And Sulcus",
+    "desc": "",
+    "refs": []
+  },
+  "Inferior_temporal_gyrus_L": {
+    "name": "Inferior temporal gyrus",
+    "desc": "The inferior temporal gyrus is one of three gyri of the temporal lobe and is located below the middle temporal gyrus, connected behind with the inferior occipital gyrus; it also extends around the infero-lateral border on to the inferior surface of the temporal lobe, where it is limited by the inferior sulcus. This region is one of the higher levels of the ventral stream of visual processing, associated with the representation of objects, places, faces, and colors. It may also be involved in face perception, and in the recognition of numbers and words.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Inferior%20temporal%20gyrus"
+    ]
+  },
+  "Inferior_temporal_gyrus_R": {
+    "name": "Inferior temporal gyrus",
+    "desc": "The inferior temporal gyrus is one of three gyri of the temporal lobe and is located below the middle temporal gyrus, connected behind with the inferior occipital gyrus; it also extends around the infero-lateral border on to the inferior surface of the temporal lobe, where it is limited by the inferior sulcus. This region is one of the higher levels of the ventral stream of visual processing, associated with the representation of objects, places, faces, and colors. It may also be involved in face perception, and in the recognition of numbers and words.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Inferior%20temporal%20gyrus"
+    ]
+  },
+  "Inferior_temporal_sulcus_(Ant_transv_collateral_sulcus)_L": {
+    "name": "Occipitotemporal sulcus",
+    "desc": "The inferior surface of the temporal lobe is concave, and is continuous posteriorly with the tentorial surface of the occipital lobe. It is traversed by the occipitotemporal sulcus, also known as the lateral occipitotemporal sulcus which extends from near the occipital pole behind, to within a short distance of the temporal pole in front, but is frequently subdivided by bridging gyri.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Occipitotemporal%20sulcus"
+    ]
+  },
+  "Inferior_temporal_sulcus_(Ant_transv_collateral_sulcus)_R": {
+    "name": "Occipitotemporal sulcus",
+    "desc": "The inferior surface of the temporal lobe is concave, and is continuous posteriorly with the tentorial surface of the occipital lobe. It is traversed by the occipitotemporal sulcus, also known as the lateral occipitotemporal sulcus which extends from near the occipital pole behind, to within a short distance of the temporal pole in front, but is frequently subdivided by bridging gyri.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Occipitotemporal%20sulcus"
+    ]
+  },
+  "Insula_(Subcentral_gyrus_and_ant_and_post_sulci)_L": {
+    "name": "Insula",
+    "desc": "Insula is the Latin word for \"island\" and may refer to:Insula, a block in a Roman city plan surrounded by four streets\nInsula (building), a kind of apartment building in ancient Rome that provided housing for all but the elite\nÍnsula Barataria, the governorship assigned to Sancho Panza as a prank in the novel Don Quixote\nInsular cortex, a brain structure\n\"Insula\", a 2020 song by Moses Sumney from Græ\n\n",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Insula"
+    ]
+  },
+  "Insula_(Subcentral_gyrus_and_ant_and_post_sulci)_R": {
+    "name": "Insula",
+    "desc": "Insula is the Latin word for \"island\" and may refer to:Insula, a block in a Roman city plan surrounded by four streets\nInsula (building), a kind of apartment building in ancient Rome that provided housing for all but the elite\nÍnsula Barataria, the governorship assigned to Sancho Panza as a prank in the novel Don Quixote\nInsular cortex, a brain structure\n\"Insula\", a 2020 song by Moses Sumney from Græ\n\n",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Insula"
+    ]
+  },
+  "Internal_capsule_L": {
+    "name": "Internal capsule",
+    "desc": "The internal capsule is a paired white matter structure, as a two-way tract, carrying ascending and descending fibers, to and from the cerebral cortex. The internal capsule is situated in the inferomedial part of each cerebral hemisphere of the brain. It carries information past the subcortical basal ganglia. As it courses it separates the caudate nucleus and the thalamus from the putamen and the globus pallidus. It also separates the caudate nucleus and the putamen in the dorsal striatum, a brain region involved in motor and reward pathways.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Internal%20capsule"
+    ]
+  },
+  "Internal_capsule_R": {
+    "name": "Internal capsule",
+    "desc": "The internal capsule is a paired white matter structure, as a two-way tract, carrying ascending and descending fibers, to and from the cerebral cortex. The internal capsule is situated in the inferomedial part of each cerebral hemisphere of the brain. It carries information past the subcortical basal ganglia. As it courses it separates the caudate nucleus and the thalamus from the putamen and the globus pallidus. It also separates the caudate nucleus and the putamen in the dorsal striatum, a brain region involved in motor and reward pathways.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Internal%20capsule"
+    ]
+  },
+  "Interpeduncular_fossa_L": {
+    "name": "Interpeduncular fossa",
+    "desc": "The interpeduncular fossa is a deep depression of the ventral surface of the midbrain between the two cerebal crura. It has been found in humans and macaques, but not in rats or mice, showing that this is a relatively new evolutionary region.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Interpeduncular%20fossa"
+    ]
+  },
+  "Interpeduncular_fossa_R": {
+    "name": "Interpeduncular fossa",
+    "desc": "The interpeduncular fossa is a deep depression of the ventral surface of the midbrain between the two cerebal crura. It has been found in humans and macaques, but not in rats or mice, showing that this is a relatively new evolutionary region.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Interpeduncular%20fossa"
+    ]
+  },
+  "Intraparietal_sulcus_L": {
+    "name": "Intraparietal sulcus",
+    "desc": "The intraparietal sulcus (IPS) is located on the lateral surface of the parietal lobe, and consists of an oblique and a horizontal portion. The IPS contains a series of functionally distinct subregions that have been intensively investigated using both single cell neurophysiology in primates and human functional neuroimaging.\nIts principal functions are related to perceptual-motor coordination and visual attention, which allows for visually-guided pointing, grasping, and object manipulation that can produce a desired effect.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Intraparietal%20sulcus"
+    ]
+  },
+  "Intraparietal_sulcus_R": {
+    "name": "Intraparietal sulcus",
+    "desc": "The intraparietal sulcus (IPS) is located on the lateral surface of the parietal lobe, and consists of an oblique and a horizontal portion. The IPS contains a series of functionally distinct subregions that have been intensively investigated using both single cell neurophysiology in primates and human functional neuroimaging.\nIts principal functions are related to perceptual-motor coordination and visual attention, which allows for visually-guided pointing, grasping, and object manipulation that can produce a desired effect.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Intraparietal%20sulcus"
+    ]
+  },
+  "Lat_Fis-ant-Horizont_L": {
+    "name": "Lat Fis-ant-Horizont",
+    "desc": "",
+    "refs": []
+  },
+  "Lat_Fis-ant-Horizont_R": {
+    "name": "Lat Fis-ant-Horizont",
+    "desc": "",
+    "refs": []
+  },
+  "Lat_Fis-ant-Vertical_L": {
+    "name": "Lat Fis-ant-Vertica",
+    "desc": "",
+    "refs": []
+  },
+  "Lat_Fis-ant-Vertical_R": {
+    "name": "Lat Fis-ant-Vertica",
+    "desc": "",
+    "refs": []
+  },
+  "Lat_Fis-post_L": {
+    "name": "Lat Fis-post",
+    "desc": "",
+    "refs": []
+  },
+  "Lat_Fis-post_R": {
+    "name": "Lat Fis-post",
+    "desc": "",
+    "refs": []
+  },
+  "Lateral_geniculate_body_L": {
+    "name": "Lateral geniculate nucleus",
+    "desc": "In neuroanatomy, the lateral geniculate nucleus is a structure in the thalamus and a key component of the mammalian visual pathway. It is a small, ovoid, ventral projection of the thalamus where the thalamus connects with the optic nerve. There are two LGNs, one on the left and another on the right side of the thalamus. In humans, both LGNs have six layers of neurons alternating with optic fibers.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Lateral%20geniculate%20nucleus"
+    ]
+  },
+  "Lateral_geniculate_body_R": {
+    "name": "Lateral geniculate nucleus",
+    "desc": "In neuroanatomy, the lateral geniculate nucleus is a structure in the thalamus and a key component of the mammalian visual pathway. It is a small, ovoid, ventral projection of the thalamus where the thalamus connects with the optic nerve. There are two LGNs, one on the left and another on the right side of the thalamus. In humans, both LGNs have six layers of neurons alternating with optic fibers.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Lateral%20geniculate%20nucleus"
+    ]
+  },
+  "Lateral_occipital_gyrus_(Middle_occipital_gyrus)_L": {
+    "name": "Lateral Occipital Gyrus",
+    "desc": "",
+    "refs": []
+  },
+  "Lateral_occipital_gyrus_(Middle_occipital_gyrus)_R": {
+    "name": "Lateral Occipital Gyrus",
+    "desc": "",
+    "refs": []
+  },
+  "Lateral_occipitotemporal_gyrus_L": {
+    "name": "Lateral Occipitotemporal Gyrus",
+    "desc": "",
+    "refs": []
+  },
+  "Lateral_occipitotemporal_gyrus_R": {
+    "name": "Lateral Occipitotemporal Gyrus",
+    "desc": "",
+    "refs": []
+  },
+  "Lateral_ventricle_L": {
+    "name": "Lateral ventricles",
+    "desc": "The lateral ventricles are the two largest ventricles of the brain and contain cerebrospinal fluid. Each cerebral hemisphere contains a lateral ventricle, known as the left or right lateral ventricle, respectively.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Lateral%20ventricles"
+    ]
+  },
+  "Lateral_ventricle_R": {
+    "name": "Lateral ventricles",
+    "desc": "The lateral ventricles are the two largest ventricles of the brain and contain cerebrospinal fluid. Each cerebral hemisphere contains a lateral ventricle, known as the left or right lateral ventricle, respectively.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Lateral%20ventricles"
+    ]
+  },
+  "Lingual_gyrus_L": {
+    "name": "Lingual gyrus",
+    "desc": "The lingual gyrus, also known as the medial occipitotemporal gyrus, is a brain structure that is linked to processing vision, especially related to letters. It is thought to also play a role in analysis of logical conditions and encoding visual memories. It is named after its shape, which is somewhat similar to a tongue. Contrary to the name, the region has little to do with speech.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Lingual%20gyrus"
+    ]
+  },
+  "Lingual_gyrus_R": {
+    "name": "Lingual gyrus",
+    "desc": "The lingual gyrus, also known as the medial occipitotemporal gyrus, is a brain structure that is linked to processing vision, especially related to letters. It is thought to also play a role in analysis of logical conditions and encoding visual memories. It is named after its shape, which is somewhat similar to a tongue. Contrary to the name, the region has little to do with speech.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Lingual%20gyrus"
+    ]
+  },
+  "Lunate_sulcus_(and_inferior)_L": {
+    "name": "Lunate sulcus",
+    "desc": "In brain anatomy, the lunate sulcus or simian sulcus, also known as the sulcus lunatus, is a fissure in the occipital lobe variably found in humans and more often larger when present in apes and monkeys. The lunate sulcus marks the transition between V1 and V2, the primary and secondary visual cortices.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Lunate%20sulcus"
+    ]
+  },
+  "Lunate_sulcus_(and_inferior)_R": {
+    "name": "Lunate sulcus",
+    "desc": "In brain anatomy, the lunate sulcus or simian sulcus, also known as the sulcus lunatus, is a fissure in the occipital lobe variably found in humans and more often larger when present in apes and monkeys. The lunate sulcus marks the transition between V1 and V2, the primary and secondary visual cortices.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Lunate%20sulcus"
+    ]
+  },
+  "Mamillary_body_L": {
+    "name": "Mammillary body",
+    "desc": "The mammillary bodies also mamillary bodies, are a pair of small round brainstem nuclei. They are located on the undersurface of the brain that, as part of the diencephalon, form part of the limbic system. They are located at the ends of the anterior arches of the fornix. They consist of two groups of nuclei, the medial mammillary nuclei and the lateral mammillary nuclei.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Mammillary%20body"
+    ]
+  },
+  "Mamillary_body_R": {
+    "name": "Mammillary body",
+    "desc": "The mammillary bodies also mamillary bodies, are a pair of small round brainstem nuclei. They are located on the undersurface of the brain that, as part of the diencephalon, form part of the limbic system. They are located at the ends of the anterior arches of the fornix. They consist of two groups of nuclei, the medial mammillary nuclei and the lateral mammillary nuclei.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Mammillary%20body"
+    ]
+  },
+  "Medial_geniculate_body_L": {
+    "name": "Medial geniculate nucleus",
+    "desc": "The medial geniculate nucleus (MGN) or medial geniculate body (MGB) is part of the auditory thalamus and represents the thalamic relay between the inferior colliculus (IC) and the auditory cortex (AC). It is made up of a number of sub-nuclei that are distinguished by their neuronal morphology and density, by their afferent and efferent connections, and by the coding properties of their neurons. It is thought that the MGN influences the direction and maintenance of attention.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Medial%20geniculate%20nucleus"
+    ]
+  },
+  "Medial_geniculate_body_R": {
+    "name": "Medial Geniculate Body",
+    "desc": "",
+    "refs": []
+  },
+  "Medial_occipitotemporal_gyrus_(Parahippocampal)_L": {
+    "name": "Medial Occipitotemporal Gyrus",
+    "desc": "",
+    "refs": []
+  },
+  "Medial_occipitotemporal_gyrus_(Parahippocampal)_R": {
+    "name": "Medial Occipitotemporal Gyrus",
+    "desc": "",
+    "refs": []
+  },
+  "Medulla_oblongata_L": {
+    "name": "Medulla oblongata",
+    "desc": "The medulla oblongata or simply medulla is a long stem-like structure which makes up the lower part of the brainstem. It is anterior and partially inferior to the cerebellum. It is a cone-shaped neuronal mass responsible for autonomic (involuntary) functions, ranging from vomiting to sneezing. The medulla contains the cardiovascular center, the respiratory center, vomiting and vasomotor centers, responsible for the autonomic functions of breathing, heart rate and blood pressure as well as the sleep–wake cycle. \"Medulla\" is from Latin, ‘pith or marrow’. And \"oblongata\" is from Latin, ‘lengthened or longish or elongated'.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Medulla%20oblongata"
+    ]
+  },
+  "Medulla_oblongata_R": {
+    "name": "Medulla oblongata",
+    "desc": "The medulla oblongata or simply medulla is a long stem-like structure which makes up the lower part of the brainstem. It is anterior and partially inferior to the cerebellum. It is a cone-shaped neuronal mass responsible for autonomic (involuntary) functions, ranging from vomiting to sneezing. The medulla contains the cardiovascular center, the respiratory center, vomiting and vasomotor centers, responsible for the autonomic functions of breathing, heart rate and blood pressure as well as the sleep–wake cycle. \"Medulla\" is from Latin, ‘pith or marrow’. And \"oblongata\" is from Latin, ‘lengthened or longish or elongated'.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Medulla%20oblongata"
+    ]
+  },
+  "Midbrain_L": {
+    "name": "Midbrain",
+    "desc": "The midbrain or mesencephalon is the uppermost portion of the brainstem connecting the diencephalon and cerebrum with the pons. It consists of the cerebral peduncles, tegmentum, and tectum.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Midbrain"
+    ]
+  },
+  "Midbrain_R": {
+    "name": "Midbrain",
+    "desc": "The midbrain or mesencephalon is the uppermost portion of the brainstem connecting the diencephalon and cerebrum with the pons. It consists of the cerebral peduncles, tegmentum, and tectum.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Midbrain"
+    ]
+  },
+  "Middle_frontal_gyrus_L": {
+    "name": "Middle frontal gyrus",
+    "desc": "The middle frontal gyrus makes up about one-third of the frontal lobe of the human brain. (A gyrus is one of the prominent \"bumps\" or \"ridges\" on the cerebral cortex.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Middle%20frontal%20gyrus"
+    ]
+  },
+  "Middle_frontal_gyrus_R": {
+    "name": "Middle frontal gyrus",
+    "desc": "The middle frontal gyrus makes up about one-third of the frontal lobe of the human brain. (A gyrus is one of the prominent \"bumps\" or \"ridges\" on the cerebral cortex.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Middle%20frontal%20gyrus"
+    ]
+  },
+  "Middle_temporal_gyrus_L": {
+    "name": "Middle temporal gyrus",
+    "desc": "Middle temporal gyrus is a gyrus in the brain on the temporal lobe. It is located between the superior temporal gyrus and inferior temporal gyrus. It corresponds largely to Brodmann area 21.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Middle%20temporal%20gyrus"
+    ]
+  },
+  "Middle_temporal_gyrus_R": {
+    "name": "Middle temporal gyrus",
+    "desc": "Middle temporal gyrus is a gyrus in the brain on the temporal lobe. It is located between the superior temporal gyrus and inferior temporal gyrus. It corresponds largely to Brodmann area 21.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Middle%20temporal%20gyrus"
+    ]
+  },
+  "Occipital_pole_L": {
+    "name": "Cerebral hemisphere",
+    "desc": "The vertebrate cerebrum (brain) is formed by two cerebral hemispheres that are separated by a groove, the longitudinal fissure. The brain can thus be described as being divided into left and right cerebral hemispheres. Each of these hemispheres has an outer layer of grey matter, the cerebral cortex, that is supported by an inner layer of white matter. In eutherian (placental) mammals, the hemispheres are linked by the corpus callosum, a very large bundle of nerve fibers. Smaller commissures, including the anterior commissure, the posterior commissure and the fornix, also join the hemispheres and these are also present in other vertebrates. These commissures transfer information between the two hemispheres to coordinate localized functions.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Cerebral%20hemisphere"
+    ]
+  },
+  "Occipital_pole_R": {
+    "name": "Cerebral hemisphere",
+    "desc": "The vertebrate cerebrum (brain) is formed by two cerebral hemispheres that are separated by a groove, the longitudinal fissure. The brain can thus be described as being divided into left and right cerebral hemispheres. Each of these hemispheres has an outer layer of grey matter, the cerebral cortex, that is supported by an inner layer of white matter. In eutherian (placental) mammals, the hemispheres are linked by the corpus callosum, a very large bundle of nerve fibers. Smaller commissures, including the anterior commissure, the posterior commissure and the fornix, also join the hemispheres and these are also present in other vertebrates. These commissures transfer information between the two hemispheres to coordinate localized functions.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Cerebral%20hemisphere"
+    ]
+  },
+  "Occipitotemporal_sulcus_(Lateral_part)_L": {
+    "name": "Occipitotemporal sulcus",
+    "desc": "The inferior surface of the temporal lobe is concave, and is continuous posteriorly with the tentorial surface of the occipital lobe. It is traversed by the occipitotemporal sulcus, also known as the lateral occipitotemporal sulcus which extends from near the occipital pole behind, to within a short distance of the temporal pole in front, but is frequently subdivided by bridging gyri.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Occipitotemporal%20sulcus"
+    ]
+  },
+  "Occipitotemporal_sulcus_(Lateral_part)_R": {
+    "name": "Occipitotemporal sulcus",
+    "desc": "The inferior surface of the temporal lobe is concave, and is continuous posteriorly with the tentorial surface of the occipital lobe. It is traversed by the occipitotemporal sulcus, also known as the lateral occipitotemporal sulcus which extends from near the occipital pole behind, to within a short distance of the temporal pole in front, but is frequently subdivided by bridging gyri.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Occipitotemporal%20sulcus"
+    ]
+  },
+  "Olfactory_sulcus_L": {
+    "name": "Olfactory tract",
+    "desc": "The olfactory tract is a bilateral bundle of afferent nerve fibers from the mitral and tufted cells of the olfactory bulb that connects to several target regions in the brain, including the piriform cortex, amygdala, and entorhinal cortex. It is a narrow white band, triangular on coronal section, the apex being directed upward.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Olfactory%20tract"
+    ]
+  },
+  "Olfactory_sulcus_R": {
+    "name": "Olfactory tract",
+    "desc": "The olfactory tract is a bilateral bundle of afferent nerve fibers from the mitral and tufted cells of the olfactory bulb that connects to several target regions in the brain, including the piriform cortex, amygdala, and entorhinal cortex. It is a narrow white band, triangular on coronal section, the apex being directed upward.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Olfactory%20tract"
+    ]
+  },
+  "Opercular_part_of__inferior_frontal_gyrus_L": {
+    "name": "Inferior frontal gyrus",
+    "desc": "The inferior frontal gyrus is the lowest positioned gyrus of the frontal gyri, of the frontal lobe, and is part of the prefrontal cortex.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Inferior%20frontal%20gyrus"
+    ]
+  },
+  "Opercular_part_of__inferior_frontal_gyrus_R": {
+    "name": "Inferior frontal gyrus",
+    "desc": "The inferior frontal gyrus is the lowest positioned gyrus of the frontal gyri, of the frontal lobe, and is part of the prefrontal cortex.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Inferior%20frontal%20gyrus"
+    ]
+  },
+  "Optic_chiasm_L": {
+    "name": "Optic chiasm",
+    "desc": "In neuroanatomy, the optic chiasm, or optic chiasma, is the part of the brain where the optic nerves cross. It is located at the bottom of the brain immediately inferior to the hypothalamus. The optic chiasm is found in all vertebrates, although in cyclostomes, it is located within the brain.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Optic%20chiasm"
+    ]
+  },
+  "Optic_chiasm_R": {
+    "name": "Optic chiasm",
+    "desc": "In neuroanatomy, the optic chiasm, or optic chiasma, is the part of the brain where the optic nerves cross. It is located at the bottom of the brain immediately inferior to the hypothalamus. The optic chiasm is found in all vertebrates, although in cyclostomes, it is located within the brain.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Optic%20chiasm"
+    ]
+  },
+  "Optic_tract_L": {
+    "name": "Optic tract",
+    "desc": "In neuroanatomy, the optic tract is a part of the visual system in the brain. It is a continuation of the optic nerve that relays information from the optic chiasm to the ipsilateral lateral geniculate nucleus (LGN), pretectal nuclei, and superior colliculus.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Optic%20tract"
+    ]
+  },
+  "Optic_tract_R": {
+    "name": "Optic tract",
+    "desc": "In neuroanatomy, the optic tract is a part of the visual system in the brain. It is a continuation of the optic nerve that relays information from the optic chiasm to the ipsilateral lateral geniculate nucleus (LGN), pretectal nuclei, and superior colliculus.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Optic%20tract"
+    ]
+  },
+  "Orbital_gyri_(Frontomarginal_gyrus_and_sulcus)_L": {
+    "name": "Orbital gyri",
+    "desc": "The inferior or orbital surface of the frontal lobe is concave, and rests on the orbital plate of the frontal bone. It is divided into four orbital gyri by a well-marked H-shaped orbital sulcus. These are named, from their position, the medial, anterior, lateral, and posterior, orbital gyri. The medial orbital gyrus presents a well-marked antero-posterior sulcus, the olfactory sulcus, for the olfactory tract; the portion medial to this is named the straight gyrus, and is continuous with the superior frontal gyrus on the medial surface.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Orbital%20gyri"
+    ]
+  },
+  "Orbital_gyri_(Frontomarginal_gyrus_and_sulcus)_R": {
+    "name": "Orbital gyri",
+    "desc": "The inferior or orbital surface of the frontal lobe is concave, and rests on the orbital plate of the frontal bone. It is divided into four orbital gyri by a well-marked H-shaped orbital sulcus. These are named, from their position, the medial, anterior, lateral, and posterior, orbital gyri. The medial orbital gyrus presents a well-marked antero-posterior sulcus, the olfactory sulcus, for the olfactory tract; the portion medial to this is named the straight gyrus, and is continuous with the superior frontal gyrus on the medial surface.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Orbital%20gyri"
+    ]
+  },
+  "Orbital_gyri_L": {
+    "name": "Orbital gyri",
+    "desc": "The inferior or orbital surface of the frontal lobe is concave, and rests on the orbital plate of the frontal bone. It is divided into four orbital gyri by a well-marked H-shaped orbital sulcus. These are named, from their position, the medial, anterior, lateral, and posterior, orbital gyri. The medial orbital gyrus presents a well-marked antero-posterior sulcus, the olfactory sulcus, for the olfactory tract; the portion medial to this is named the straight gyrus, and is continuous with the superior frontal gyrus on the medial surface.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Orbital%20gyri"
+    ]
+  },
+  "Orbital_gyri_R": {
+    "name": "Orbital gyri",
+    "desc": "The inferior or orbital surface of the frontal lobe is concave, and rests on the orbital plate of the frontal bone. It is divided into four orbital gyri by a well-marked H-shaped orbital sulcus. These are named, from their position, the medial, anterior, lateral, and posterior, orbital gyri. The medial orbital gyrus presents a well-marked antero-posterior sulcus, the olfactory sulcus, for the olfactory tract; the portion medial to this is named the straight gyrus, and is continuous with the superior frontal gyrus on the medial surface.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Orbital%20gyri"
+    ]
+  },
+  "Orbital_part_of__inferior_frontal_gyrus_L": {
+    "name": "Orbital part of inferior frontal gyrus",
+    "desc": "The orbital part of inferior frontal gyrus also known as the pars orbitalis is the orbital part of the inferior frontal gyrus.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Orbital%20part%20of%20inferior%20frontal%20gyrus"
+    ]
+  },
+  "Orbital_part_of__inferior_frontal_gyrus_R": {
+    "name": "Orbital part of inferior frontal gyrus",
+    "desc": "The orbital part of inferior frontal gyrus also known as the pars orbitalis is the orbital part of the inferior frontal gyrus.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Orbital%20part%20of%20inferior%20frontal%20gyrus"
+    ]
+  },
+  "Orbital_sulci_(H-shaped_orbital_sulci)_L": {
+    "name": "Orbital sulcus",
+    "desc": "The inferior or orbital surface of the frontal lobe is concave, and rests on the orbital plate of the frontal bone. It is divided into four orbital gyri by a well-marked H-shaped sulcus the orbital sulcus.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Orbital%20sulcus"
+    ]
+  },
+  "Orbital_sulci_(H-shaped_orbital_sulci)_R": {
+    "name": "Orbital sulcus",
+    "desc": "The inferior or orbital surface of the frontal lobe is concave, and rests on the orbital plate of the frontal bone. It is divided into four orbital gyri by a well-marked H-shaped sulcus the orbital sulcus.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Orbital%20sulcus"
+    ]
+  },
+  "Orbital_sulci_(Lateral_Orbital_sulcus)_L": {
+    "name": "Orbital sulcus",
+    "desc": "The inferior or orbital surface of the frontal lobe is concave, and rests on the orbital plate of the frontal bone. It is divided into four orbital gyri by a well-marked H-shaped sulcus the orbital sulcus.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Orbital%20sulcus"
+    ]
+  },
+  "Orbital_sulci_(Lateral_Orbital_sulcus)_R": {
+    "name": "Orbital sulcus",
+    "desc": "The inferior or orbital surface of the frontal lobe is concave, and rests on the orbital plate of the frontal bone. It is divided into four orbital gyri by a well-marked H-shaped sulcus the orbital sulcus.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Orbital%20sulcus"
+    ]
+  },
+  "Paracentral_gyrus_and_sulcus_L": {
+    "name": "Paracentral Gyrus And Sulcus",
+    "desc": "",
+    "refs": []
+  },
+  "Paracentral_gyrus_and_sulcus_R": {
+    "name": "Paracentral Gyrus And Sulcus",
+    "desc": "",
+    "refs": []
+  },
+  "Paracentral_sulcus_L": {
+    "name": "Paracentral sulcus",
+    "desc": "The paracentral sulcus is a sulcus of the brain. It forms the paracentral lobule's anterior border. It is part of the cingulate sulcus.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Paracentral%20sulcus"
+    ]
+  },
+  "Paracentral_sulcus_R": {
+    "name": "Paracentral Sulcus",
+    "desc": "",
+    "refs": []
+  },
+  "Parieto-occipital_sulcus_L": {
+    "name": "Parieto-occipital sulcus",
+    "desc": "In neuroanatomy, the parieto-occipital sulcus is a deep sulcus in the cerebral cortex that marks the boundary between the cuneus and precuneus, and also between the parietal and occipital lobes. Only a small part can be seen on the lateral surface of the hemisphere, its chief part being on the medial surface.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Parieto-occipital%20sulcus"
+    ]
+  },
+  "Parieto-occipital_sulcus_R": {
+    "name": "Parieto-occipital sulcus",
+    "desc": "In neuroanatomy, the parieto-occipital sulcus is a deep sulcus in the cerebral cortex that marks the boundary between the cuneus and precuneus, and also between the parietal and occipital lobes. Only a small part can be seen on the lateral surface of the hemisphere, its chief part being on the medial surface.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Parieto-occipital%20sulcus"
+    ]
+  },
+  "Pons_L": {
+    "name": "Pons",
+    "desc": "The pons is part of the brainstem that in humans and other mammals, lies inferior to the midbrain, superior to the medulla oblongata and anterior to the cerebellum.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Pons"
+    ]
+  },
+  "Pons_R": {
+    "name": "Pons",
+    "desc": "The pons is part of the brainstem that in humans and other mammals, lies inferior to the midbrain, superior to the medulla oblongata and anterior to the cerebellum.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Pons"
+    ]
+  },
+  "Postcentral_gyrus_L": {
+    "name": "Postcentral gyrus",
+    "desc": "In neuroanatomy, the postcentral gyrus is a prominent gyrus in the lateral parietal lobe of the human brain. It is the location of the primary somatosensory cortex, the main sensory receptive area for the sense of touch. Like other sensory areas, there is a map of sensory space in this location, called the sensory homunculus.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Postcentral%20gyrus"
+    ]
+  },
+  "Postcentral_gyrus_R": {
+    "name": "Postcentral gyrus",
+    "desc": "In neuroanatomy, the postcentral gyrus is a prominent gyrus in the lateral parietal lobe of the human brain. It is the location of the primary somatosensory cortex, the main sensory receptive area for the sense of touch. Like other sensory areas, there is a map of sensory space in this location, called the sensory homunculus.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Postcentral%20gyrus"
+    ]
+  },
+  "Postcentral_sulcus_L": {
+    "name": "Postcentral sulcus",
+    "desc": "The postcentral sulcus of the parietal lobe lies parallel to, and behind, the central sulcus in the human brain.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Postcentral%20sulcus"
+    ]
+  },
+  "Postcentral_sulcus_R": {
+    "name": "Postcentral sulcus",
+    "desc": "The postcentral sulcus of the parietal lobe lies parallel to, and behind, the central sulcus in the human brain.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Postcentral%20sulcus"
+    ]
+  },
+  "Posterior_commissure": {
+    "name": "Posterior commissure",
+    "desc": "The posterior commissure is a rounded band of white fibers crossing the middle line on the dorsal aspect of the rostral end of the cerebral aqueduct. It is important in the bilateral pupillary light reflex. It constitutes part of the epithalamus.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Posterior%20commissure"
+    ]
+  },
+  "Posterior_transverse_collateral_sulcus_L": {
+    "name": "Posterior Transverse Collateral Sulcus",
+    "desc": "",
+    "refs": []
+  },
+  "Posterior_transverse_collateral_sulcus_R": {
+    "name": "Posterior Transverse Collateral Sulcus",
+    "desc": "",
+    "refs": []
+  },
+  "Precentral_gyrus_L": {
+    "name": "Precentral gyrus",
+    "desc": "The precentral gyrus is a prominent gyrus on the surface of the posterior frontal lobe of the brain. It is the site of the primary motor cortex that in humans is cytoarchitecturally defined as Brodmann area 4.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Precentral%20gyrus"
+    ]
+  },
+  "Precentral_gyrus_R": {
+    "name": "Precentral gyrus",
+    "desc": "The precentral gyrus is a prominent gyrus on the surface of the posterior frontal lobe of the brain. It is the site of the primary motor cortex that in humans is cytoarchitecturally defined as Brodmann area 4.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Precentral%20gyrus"
+    ]
+  },
+  "Precentral_sulcus_(Superior_part)_L": {
+    "name": "Precentral sulcus",
+    "desc": "The precentral sulcus is a part of the human brain that lies parallel to, and in front of, the central sulcus. A sulcus is one of the prominent grooves on the surface of the human brain.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Precentral%20sulcus"
+    ]
+  },
+  "Precentral_sulcus_(Superior_part)_R": {
+    "name": "Precentral sulcus",
+    "desc": "The precentral sulcus is a part of the human brain that lies parallel to, and in front of, the central sulcus. A sulcus is one of the prominent grooves on the surface of the human brain.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Precentral%20sulcus"
+    ]
+  },
+  "Precentral_sulcus_(inferior_part)_L": {
+    "name": "Precentral Sulcus",
+    "desc": "",
+    "refs": []
+  },
+  "Precentral_sulcus_(inferior_part)_R": {
+    "name": "Precentral sulcus",
+    "desc": "The precentral sulcus is a part of the human brain that lies parallel to, and in front of, the central sulcus. A sulcus is one of the prominent grooves on the surface of the human brain.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Precentral%20sulcus"
+    ]
+  },
+  "Precuneus_L": {
+    "name": "Precuneus",
+    "desc": "In neuroanatomy, the precuneus is the portion of the superior parietal lobule on the medial surface of each brain hemisphere. It is located in front of the cuneus. The precuneus is bounded in front by the marginal branch of the cingulate sulcus, at the rear by the parieto-occipital sulcus, and underneath by the subparietal sulcus. It is involved with episodic memory, visuospatial processing, reflections upon self, and aspects of consciousness.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Precuneus"
+    ]
+  },
+  "Precuneus_R": {
+    "name": "Precuneus",
+    "desc": "In neuroanatomy, the precuneus is the portion of the superior parietal lobule on the medial surface of each brain hemisphere. It is located in front of the cuneus. The precuneus is bounded in front by the marginal branch of the cingulate sulcus, at the rear by the parieto-occipital sulcus, and underneath by the subparietal sulcus. It is involved with episodic memory, visuospatial processing, reflections upon self, and aspects of consciousness.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Precuneus"
+    ]
+  },
+  "Putamen_L": {
+    "name": "Putamen",
+    "desc": "The putamen is a subcortical nucleus with a rounded structure, in the basal ganglia nuclear group. It is located at the base of the forebrain and above the midbrain.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Putamen"
+    ]
+  },
+  "Putamen_R": {
+    "name": "Putamen",
+    "desc": "The putamen is a subcortical nucleus with a rounded structure, in the basal ganglia nuclear group. It is located at the base of the forebrain and above the midbrain.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Putamen"
+    ]
+  },
+  "Septal_nuclei": {
+    "name": "Septal area",
+    "desc": "The septal area, consisting of the lateral septum and medial septum, is an area in the lower, posterior part of the medial surface of the frontal lobe, and refers to the nearby septum pellucidum.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Septal%20area"
+    ]
+  },
+  "Septum_pellucidum": {
+    "name": "Septum pellucidum",
+    "desc": "The septum pellucidum is a thin, triangular, vertical double membrane separating the anterior horns of the left and right lateral ventricles of the brain. It runs as a sheet from the corpus callosum down to the fornix.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Septum%20pellucidum"
+    ]
+  },
+  "Straight_gyrus_(Gyrus_rectus)_L": {
+    "name": "Straight gyrus",
+    "desc": "The portion of the inferior frontal lobe immediately adjacent to the longitudinal fissure is named the straight gyrus,(or gyrus rectus) and is continuous with the superior frontal gyrus on the medial surface.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Straight%20gyrus"
+    ]
+  },
+  "Straight_gyrus_(Gyrus_rectus)_R": {
+    "name": "Straight gyrus",
+    "desc": "The portion of the inferior frontal lobe immediately adjacent to the longitudinal fissure is named the straight gyrus,(or gyrus rectus) and is continuous with the superior frontal gyrus on the medial surface.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Straight%20gyrus"
+    ]
+  },
+  "Stria_medullaris_thalami_L": {
+    "name": "Stria medullaris",
+    "desc": "The stria medullaris (SM), is a part of the epithalamus and forms a bilateral white matter tract of the initial segment of the dorsal diencephalic conduction system (DDCS). It contains afferent fibers from the septal nuclei, lateral preoptico-hypothalamic region, and anterior thalamic nuclei to the habenula. It forms a horizontal ridge on the medial surface of the thalamus on the border between dorsal and medial surfaces of the thalamus. The SM, in conjunction with the habenula and the habenular commissure, forms the habenular trigone. It is considered to be the primary afferent of the DDCS.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Stria%20medullaris"
+    ]
+  },
+  "Stria_medullaris_thalami_R": {
+    "name": "Stria medullaris",
+    "desc": "The stria medullaris (SM), is a part of the epithalamus and forms a bilateral white matter tract of the initial segment of the dorsal diencephalic conduction system (DDCS). It contains afferent fibers from the septal nuclei, lateral preoptico-hypothalamic region, and anterior thalamic nuclei to the habenula. It forms a horizontal ridge on the medial surface of the thalamus on the border between dorsal and medial surfaces of the thalamus. The SM, in conjunction with the habenula and the habenular commissure, forms the habenular trigone. It is considered to be the primary afferent of the DDCS.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Stria%20medullaris"
+    ]
+  },
+  "Stria_terminalis_L": {
+    "name": "Stria terminalis",
+    "desc": "The stria terminalis is a structure in the brain consisting of a band of fibers running along the lateral margin of the ventricular surface of the thalamus. Serving as a major output pathway of the amygdala, the stria terminalis runs from its centromedial division to the ventromedial nucleus of the hypothalamus.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Stria%20terminalis"
+    ]
+  },
+  "Stria_terminalis_R": {
+    "name": "Stria terminalis",
+    "desc": "The stria terminalis is a structure in the brain consisting of a band of fibers running along the lateral margin of the ventricular surface of the thalamus. Serving as a major output pathway of the amygdala, the stria terminalis runs from its centromedial division to the ventromedial nucleus of the hypothalamus.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Stria%20terminalis"
+    ]
+  },
+  "Subparietal_sulcus_L": {
+    "name": "Subparietal sulcus",
+    "desc": "In neuroanatomy, the subparietal sulcus or suprasplenial sulcus is a sulcus, or crevice, on the medial surface of each cerebral hemisphere, above the splenium of the corpus callosum. It separates the precuneus from the posterior part of the cingulate gyrus. It is the posterior continuation of the cingulate sulcus. The cingulate sulcus actually \"terminates\" as the marginal sulcus of the cingulate sulcus. It extends posteriorly toward the calcarine sulcus.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Subparietal%20sulcus"
+    ]
+  },
+  "Subparietal_sulcus_R": {
+    "name": "Subparietal Sulcus",
+    "desc": "",
+    "refs": []
+  },
+  "Sulcus_interm_prim-Jensen_L": {
+    "name": "Sulcus Interm Prim-Jensen",
+    "desc": "",
+    "refs": []
+  },
+  "Sulcus_interm_prim-Jensen_R": {
+    "name": "Sulcus Interm Prim-Jensen",
+    "desc": "",
+    "refs": []
+  },
+  "Superior_cerebellar_peduncle_L": {
+    "name": "Superior cerebellar peduncle",
+    "desc": "In the human brain, the superior cerebellar peduncle is one of the three paired cerebellar peduncles of bundled fibers that connect the cerebellum to the brainstem. The superior cerebellar peduncle connects to the midbrain. It consists mainly of efferent fibers, the cerebellothalamic tract that runs from a cerebellar hemisphere to the contralateral thalamus, and the cerebellorubral tract that runs from a cerebellar hemisphere to the red nucleus. It also contains afferent tracts, most prominent of which is the ventral spinocerebellar tract. Other afferent tracts are the ventral trigeminal tract, tectocerebellar fibers, and noradrenergic fibers from the locus coeruleus. The superior peduncle emerges from the upper and medial parts of the white matter of each cerebellar hemisphere and is placed under cover of the upper part of the cerebellum.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Superior%20cerebellar%20peduncle"
+    ]
+  },
+  "Superior_cerebellar_peduncle_R": {
+    "name": "Superior cerebellar peduncle",
+    "desc": "In the human brain, the superior cerebellar peduncle is one of the three paired cerebellar peduncles of bundled fibers that connect the cerebellum to the brainstem. The superior cerebellar peduncle connects to the midbrain. It consists mainly of efferent fibers, the cerebellothalamic tract that runs from a cerebellar hemisphere to the contralateral thalamus, and the cerebellorubral tract that runs from a cerebellar hemisphere to the red nucleus. It also contains afferent tracts, most prominent of which is the ventral spinocerebellar tract. Other afferent tracts are the ventral trigeminal tract, tectocerebellar fibers, and noradrenergic fibers from the locus coeruleus. The superior peduncle emerges from the upper and medial parts of the white matter of each cerebellar hemisphere and is placed under cover of the upper part of the cerebellum.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Superior%20cerebellar%20peduncle"
+    ]
+  },
+  "Superior_colliculus_L": {
+    "name": "Superior colliculus",
+    "desc": "In neuroanatomy, the superior colliculus is a structure lying on the roof of the mammalian midbrain. In non-mammalian vertebrates, the homologous structure is known as the optic tectum or optic lobe. The adjective form tectal is commonly used for both structures.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Superior%20colliculus"
+    ]
+  },
+  "Superior_colliculus_R": {
+    "name": "Superior Colliculus",
+    "desc": "",
+    "refs": []
+  },
+  "Superior_frontal_gyrus_L": {
+    "name": "Superior frontal gyrus",
+    "desc": "In neuroanatomy, the superior frontal gyrus is a gyrus – a ridge on the brain's cerebral cortex – which makes up about one third of the frontal lobe. It is bounded laterally by the superior frontal sulcus.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Superior%20frontal%20gyrus"
+    ]
+  },
+  "Superior_frontal_gyrus_R": {
+    "name": "Superior frontal gyrus",
+    "desc": "In neuroanatomy, the superior frontal gyrus is a gyrus – a ridge on the brain's cerebral cortex – which makes up about one third of the frontal lobe. It is bounded laterally by the superior frontal sulcus.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Superior%20frontal%20gyrus"
+    ]
+  },
+  "Superior_frontal_sulcus_L": {
+    "name": "Superior frontal sulcus",
+    "desc": "The superior frontal sulcus is a sulcus between the superior frontal gyrus and the middle frontal gyrus, that defines the lateral limit of the Superior frontal gyrus.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Superior%20frontal%20sulcus"
+    ]
+  },
+  "Superior_frontal_sulcus_R": {
+    "name": "Superior Frontal Sulcus",
+    "desc": "",
+    "refs": []
+  },
+  "Superior_occipital_gyri_L": {
+    "name": "Occipital gyri",
+    "desc": "The occipital gyri (OcG) are three gyri in parallel, along the lateral portion of the occipital lobe, also referred to as a composite structure in the brain. The gyri are the superior occipital gyrus, the middle occipital gyrus, and the inferior occipital gyrus, and these are also known as the occipital face area. The superior and inferior occipital sulci separates the three occipital gyri.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Occipital%20gyri"
+    ]
+  },
+  "Superior_occipital_gyri_R": {
+    "name": "Occipital gyri",
+    "desc": "The occipital gyri (OcG) are three gyri in parallel, along the lateral portion of the occipital lobe, also referred to as a composite structure in the brain. The gyri are the superior occipital gyrus, the middle occipital gyrus, and the inferior occipital gyrus, and these are also known as the occipital face area. The superior and inferior occipital sulci separates the three occipital gyri.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Occipital%20gyri"
+    ]
+  },
+  "Superior_parietal_lobule_L": {
+    "name": "Superior parietal lobule",
+    "desc": "The superior parietal lobule is bounded in front by the upper part of the postcentral sulcus, but is usually connected with the postcentral gyrus above the end of the sulcus. The superior parietal lobule contains Brodmann's areas 5 and 7.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Superior%20parietal%20lobule"
+    ]
+  },
+  "Superior_parietal_lobule_R": {
+    "name": "Superior parietal lobule",
+    "desc": "The superior parietal lobule is bounded in front by the upper part of the postcentral sulcus, but is usually connected with the postcentral gyrus above the end of the sulcus. The superior parietal lobule contains Brodmann's areas 5 and 7.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Superior%20parietal%20lobule"
+    ]
+  },
+  "Superior_temporal_gyrus_(Lateral_part)_L": {
+    "name": "Superior temporal gyrus",
+    "desc": "The superior temporal gyrus (STG) is one of three gyri in the temporal lobe of the human brain, which is located laterally to the head, situated somewhat above the external ear.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Superior%20temporal%20gyrus"
+    ]
+  },
+  "Superior_temporal_gyrus_(Lateral_part)_R": {
+    "name": "Superior temporal gyrus",
+    "desc": "The superior temporal gyrus (STG) is one of three gyri in the temporal lobe of the human brain, which is located laterally to the head, situated somewhat above the external ear.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Superior%20temporal%20gyrus"
+    ]
+  },
+  "Superior_temporal_sulcus_L": {
+    "name": "Superior temporal sulcus",
+    "desc": "The superior temporal sulcus (STS) is the sulcus separating the superior temporal gyrus from the middle temporal gyrus, in the temporal lobe of the mammalian brain. A sulcus is a deep groove that curves into the largest part of the brain, the cerebrum, and a gyrus is a ridge that curves outward of the cerebrum.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Superior%20temporal%20sulcus"
+    ]
+  },
+  "Superior_temporal_sulcus_R": {
+    "name": "Superior temporal sulcus",
+    "desc": "The superior temporal sulcus (STS) is the sulcus separating the superior temporal gyrus from the middle temporal gyrus, in the temporal lobe of the mammalian brain. A sulcus is a deep groove that curves into the largest part of the brain, the cerebrum, and a gyrus is a ridge that curves outward of the cerebrum.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Superior%20temporal%20sulcus"
+    ]
+  },
+  "Supramarginal_gyrus_L": {
+    "name": "Supramarginal gyrus",
+    "desc": "The supramarginal gyrus is a portion of the parietal lobe. This area of the brain is also known as Brodmann area 40 based on the brain map created by Korbinian Brodmann to define the structures in the cerebral cortex. It is probably involved with language perception and processing, and lesions in it may cause receptive aphasia.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Supramarginal%20gyrus"
+    ]
+  },
+  "Supramarginal_gyrus_R": {
+    "name": "Supramarginal gyrus",
+    "desc": "The supramarginal gyrus is a portion of the parietal lobe. This area of the brain is also known as Brodmann area 40 based on the brain map created by Korbinian Brodmann to define the structures in the cerebral cortex. It is probably involved with language perception and processing, and lesions in it may cause receptive aphasia.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Supramarginal%20gyrus"
+    ]
+  },
+  "Temporal_plane_L": {
+    "name": "Automated planning and scheduling",
+    "desc": "Automated planning and scheduling, sometimes denoted as simply AI planning, is a branch of artificial intelligence that concerns the realization of strategies or action sequences, typically for execution by intelligent agents, autonomous robots and unmanned vehicles. Unlike classical control and classification problems, the solutions are complex and must be discovered and optimized in multidimensional space. Planning is also related to decision theory.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Automated%20planning%20and%20scheduling"
+    ]
+  },
+  "Temporal_plane_R": {
+    "name": "Automated planning and scheduling",
+    "desc": "Automated planning and scheduling, sometimes denoted as simply AI planning, is a branch of artificial intelligence that concerns the realization of strategies or action sequences, typically for execution by intelligent agents, autonomous robots and unmanned vehicles. Unlike classical control and classification problems, the solutions are complex and must be discovered and optimized in multidimensional space. Planning is also related to decision theory.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Automated%20planning%20and%20scheduling"
+    ]
+  },
+  "Temporal_pole_L": {
+    "name": "Brodmann area 38",
+    "desc": "Brodmann area 38, also BA38 or temporopolar area 38 (H), is part of the temporal cortex in the human brain. BA 38 is at the anterior end of the temporal lobe, known as the temporal pole.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Brodmann%20area%2038"
+    ]
+  },
+  "Temporal_pole_R": {
+    "name": "Brodmann area 38",
+    "desc": "Brodmann area 38, also BA38 or temporopolar area 38 (H), is part of the temporal cortex in the human brain. BA 38 is at the anterior end of the temporal lobe, known as the temporal pole.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Brodmann%20area%2038"
+    ]
+  },
+  "Thalamus_L": {
+    "name": "Thalamus",
+    "desc": "The thalamus is a large mass of gray matter on the lateral walls of the third ventricle forming the dorsal part of the diencephalon. Nerve fibers project out of the thalamus to the cerebral cortex in all directions, known as the thalamocortical radiations, allowing hub-like exchanges of information. It has several functions, such as the relaying of sensory and motor signals to the cerebral cortex and the regulation of consciousness, sleep, and alertness.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Thalamus"
+    ]
+  },
+  "Thalamus_R": {
+    "name": "Thalamus",
+    "desc": "The thalamus is a large mass of gray matter on the lateral walls of the third ventricle forming the dorsal part of the diencephalon. Nerve fibers project out of the thalamus to the cerebral cortex in all directions, known as the thalamocortical radiations, allowing hub-like exchanges of information. It has several functions, such as the relaying of sensory and motor signals to the cerebral cortex and the regulation of consciousness, sleep, and alertness.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Thalamus"
+    ]
+  },
+  "Third_ventricle": {
+    "name": "Third ventricle",
+    "desc": "The third ventricle is one of the four connected cerebral ventricles of the ventricular system within the mammalian brain. It is a slit-like cavity formed in the diencephalon between the two thalami, in the midline between the right and left lateral ventricles, and is filled with cerebrospinal fluid (CSF).",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Third%20ventricle"
+    ]
+  },
+  "Transverse_frontopolar_gyrus_and_sulcus_L": {
+    "name": "Transverse Frontopolar Gyrus And Sulcus",
+    "desc": "",
+    "refs": []
+  },
+  "Transverse_frontopolar_gyrus_and_sulcus_R": {
+    "name": "Transverse Frontopolar Gyrus And Sulcus",
+    "desc": "",
+    "refs": []
+  },
+  "Transverse_occipital_sulcus_(and_Superior)_L": {
+    "name": "Transverse occipital sulcus",
+    "desc": "The transverse occipital sulcus is a sulcus in the occipital lobe.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Transverse%20occipital%20sulcus"
+    ]
+  },
+  "Transverse_occipital_sulcus_(and_Superior)_R": {
+    "name": "Transverse occipital sulcus",
+    "desc": "The transverse occipital sulcus is a sulcus in the occipital lobe.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Transverse%20occipital%20sulcus"
+    ]
+  },
+  "Transverse_temporal_gyri_L": {
+    "name": "Transverse temporal gyrus",
+    "desc": "The transverse temporal gyrus, also called Heschl's gyrus or Heschl's convolutions, is a gyrus found in the area of each primary auditory cortex buried within the lateral sulcus of the human brain, occupying Brodmann areas 41 and 42. Transverse temporal gyri are superior to and separated from the planum temporale by Heschl's sulcus. Transverse temporal gyri are found in varying numbers in both the right and left hemispheres of the brain and one study found that this number is not related to the hemisphere or dominance of hemisphere studied in subjects. Transverse temporal gyri can be viewed in the sagittal plane as either an omega shape or a heart shape.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Transverse%20temporal%20gyrus"
+    ]
+  },
+  "Transverse_temporal_gyri_R": {
+    "name": "Transverse temporal gyrus",
+    "desc": "The transverse temporal gyrus, also called Heschl's gyrus or Heschl's convolutions, is a gyrus found in the area of each primary auditory cortex buried within the lateral sulcus of the human brain, occupying Brodmann areas 41 and 42. Transverse temporal gyri are superior to and separated from the planum temporale by Heschl's sulcus. Transverse temporal gyri are found in varying numbers in both the right and left hemispheres of the brain and one study found that this number is not related to the hemisphere or dominance of hemisphere studied in subjects. Transverse temporal gyri can be viewed in the sagittal plane as either an omega shape or a heart shape.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Transverse%20temporal%20gyrus"
+    ]
+  },
+  "Triangular_part_of__inferior_frontal_gyrus_L": {
+    "name": "Inferior frontal gyrus",
+    "desc": "The inferior frontal gyrus is the lowest positioned gyrus of the frontal gyri, of the frontal lobe, and is part of the prefrontal cortex.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Inferior%20frontal%20gyrus"
+    ]
+  },
+  "Triangular_part_of__inferior_frontal_gyrus_R": {
+    "name": "Inferior frontal gyrus",
+    "desc": "The inferior frontal gyrus is the lowest positioned gyrus of the frontal gyri, of the frontal lobe, and is part of the prefrontal cortex.",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Inferior%20frontal%20gyrus"
+    ]
+  },
+  "White_matter_of_telencephalon_L": {
+    "name": "White Matter Of Telencephalon",
+    "desc": "",
+    "refs": []
+  },
+  "White_matter_of_telencephalon_R": {
+    "name": "White Matter Of Telencephalon",
+    "desc": "",
+    "refs": []
+  }
+}

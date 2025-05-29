@@ -1,0 +1,20 @@
+node_modules\n__pycache__\n*.env\n*.pyc
+
+# Node.js
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Environment files
+*.env
+
+# MacOS
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

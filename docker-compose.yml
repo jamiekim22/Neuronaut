@@ -1,0 +1,14 @@
+services:
+  next-app:
+    build: ./services/next-app
+    ports:
+      - "3000:3000"
+    depends_on:
+      - ai-service
+    environment:
+      - AI_URL=http://ai-service:5000
+
+  ai-service:
+    build: ./services/ai-service
+    ports:
+      - "5000:5000"
