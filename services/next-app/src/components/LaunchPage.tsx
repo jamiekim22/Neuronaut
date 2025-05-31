@@ -96,7 +96,7 @@ export default function LaunchPage({ onComplete }: LaunchPageProps) {
                             position: "relative",
                         }}
                     >
-                        {/* @ts-ignore - dotlottie-player is a web component */}
+                        {/* @ts-expect-error - dotlottie-player is a web component */}
                         <dotlottie-player
                             src="https://lottie.host/685e29d2-8f98-46f3-858c-f826eb8ad2fe/hMNaBVp3HH.lottie"
                             background="transparent"
@@ -109,7 +109,7 @@ export default function LaunchPage({ onComplete }: LaunchPageProps) {
                             loop
                             autoplay
                         >
-                            {/* @ts-ignore - dotlottie-player is a web component */}
+                            {/* @ts-expect-error - dotlottie-player is a web component */}
                         </dotlottie-player>
                         <div
                             style={{

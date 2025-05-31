@@ -20,8 +20,7 @@ export default function Scene({ onSelect }: { onSelect: (id: string) => void }) 
     }
   );  useEffect(() => {
     if (gltf.scene) {
-      // Scale up the brain model first
-      gltf.scene.scale.setScalar(3);
+      gltf.scene.scale.setScalar(6); // Set scale
       
       // Then center the scaled model
       const box = new THREE.Box3().setFromObject(gltf.scene);

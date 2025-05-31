@@ -11,7 +11,33 @@ export default function RegionInfoPanel({
   const { regions, isLoading: regionsLoading, isError } = useRegionData()
   const [useAI, setUseAI] = useState(false)
   const [description, setDescription] = useState<string>("")
+  const [displayedText, setDisplayedText] = useState<string>("")
   const [aiLoading, setAiLoading] = useState(false)
+  const [, setIsTyping] = useState(false)
+
+  // Typewriter effect
+  useEffect(() => {
+    if (!description) {
+      setDisplayedText("")
+      return
+    }
+
+    setIsTyping(true)
+    setDisplayedText("")
+    
+    let index = 0
+    const typewriterInterval = setInterval(() => {
+      if (index < description.length) {
+        setDisplayedText(description.slice(0, index + 1))
+        index++
+      } else {
+        setIsTyping(false)
+        clearInterval(typewriterInterval)
+      }
+    }, 3) // speed adjustment
+
+    return () => clearInterval(typewriterInterval)
+  }, [description])
 
   // When regionId or toggle changes, update description
   useEffect(() => {
@@ -47,6 +73,7 @@ export default function RegionInfoPanel({
         setAiLoading(false)
       })
   }, [regionId, useAI, regions])
+
   if (regionsLoading) return <p className="p-4 bg-black/70 backdrop-blur-sm rounded-lg text-white">Loading region data…</p>
   if (isError) return <p className="p-4 bg-black/70 backdrop-blur-sm rounded-lg text-red-400">Error loading region data.</p>
   if (!regionId) return <p className="p-4 bg-black/70 backdrop-blur-sm rounded-lg text-gray-300">Click on a region to see details.</p>
@@ -55,6 +82,7 @@ export default function RegionInfoPanel({
   if (!info) {
     return <p className="p-4 bg-black/70 backdrop-blur-sm rounded-lg text-gray-400"> No preset info for &quot;{regionId}&quot;. </p>
   }
+  
   return (
     <div className="p-4 bg-black/70 backdrop-blur-sm rounded-lg shadow-lg space-y-4 text-white">
       <div className="flex items-center justify-between">
@@ -68,10 +96,17 @@ export default function RegionInfoPanel({
           />
           <span>Use AI</span>
         </label>
-      </div>      {aiLoading ? (
+      </div>
+
+      {aiLoading ? (
         <p className="text-gray-300">Generating AI description…</p>
       ) : (
-        <p className="text-gray-200">{description}</p>
+        <p className="text-gray-200">
+          {displayedText}
+          <span className="inline-block w-1 h-5 ml-1 bg-gray-300 animate-pulse" style={{
+            animationDuration: '1.5s'
+          }}>|</span>
+        </p>
       )}
 
       {info.refs.length > 0 && (
