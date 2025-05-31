@@ -1,0 +1,44 @@
+.starContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #010003;
+  overflow: hidden;
+  z-index: -1;              /* MAKE SURE your page content is above z-index:-1 */
+  pointer-events: none;     /* clicks “pass through” to whatever is beneath */
+}
+
+/*
+  Each star is a tiny white dot (border-radius: 50% for circle).
+  We animate its opacity with a keyframe (“twinkle”) that oscillates between some min / max opacity.
+*/
+.star {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 50%;
+  opacity: 0;              /* start “invisible” until animation kicks in */
+  animation-name: twinkle;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+/* 
+  The “twinkle” keyframe: 
+  • 0%   → opacity: 0.3 (very dim)
+  • 50%  → opacity: 1   (bright white)
+  • 100% → opacity: 0.3 (fade back)
+  You can tweak these numbers for a subtler or more dramatic flicker.
+*/
+@keyframes twinkle {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}

@@ -18,11 +18,12 @@ export default function Scene({ onSelect }: { onSelect: (id: string) => void }) 
       draco.setDecoderPath("/draco/");
       loader.setDRACOLoader(draco);
     }
-  );
-
-  useEffect(() => {
+  );  useEffect(() => {
     if (gltf.scene) {
-      // Center the model
+      // Scale up the brain model first
+      gltf.scene.scale.setScalar(3);
+      
+      // Then center the scaled model
       const box = new THREE.Box3().setFromObject(gltf.scene);
       const center = box.getCenter(new THREE.Vector3());
       gltf.scene.position.sub(center);

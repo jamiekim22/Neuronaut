@@ -1,5 +1,3 @@
-// services/next-app/hooks/useRegionData.ts
-
 import useSWR from 'swr'
 
 export interface RegionInfo {

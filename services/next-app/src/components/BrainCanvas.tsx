@@ -10,7 +10,7 @@ type Props = {
 
 export default function BrainCanvas({ onSelect }: Props) {
   return (
-    <Canvas camera={{ position: [0, 0.75, 0.75], fov: 45 }}>
+    <Canvas camera={{ position: [0, 0, 4], fov: 50 }}>
       {/* lighting */}
       <ambientLight intensity={0.5} />
       <directionalLight position={[5, 5, 5]} />
@@ -23,8 +23,8 @@ export default function BrainCanvas({ onSelect }: Props) {
         enablePan={true} 
         enableZoom={true} 
         enableRotate={true}
-        minDistance={1} // Minimum zoom distance
-        maxDistance={2} // Maximum zoom distance
+        minDistance={0.5} // Minimum zoom distance - allow closer
+        maxDistance={8}   // Maximum zoom distance - allow much further
         target={[0, 0, 0]} // Center point of rotation
       />
     </Canvas>

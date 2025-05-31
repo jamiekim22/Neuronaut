@@ -1,19 +1,22 @@
 "use client";
 import { useState } from "react";
-import BrainCanvas from "@/components/BrainCanvas";
-import RegionInfoPanel from "@/components/RegionInfoPanel";
+import LaunchPage from "@/components/LaunchPage";
+import Main from "@/components/Main";
 
 export default function Page() {
-  const [selected, setSelected] = useState<string | null>(null);
+  const [showLaunch, setShowLaunch] = useState(true);
+
+  const handleLaunchComplete = () => {
+    setShowLaunch(false);
+  };
 
   return (
-    <div className="flex h-screen">
-      <div className="w-3/4">
-        <BrainCanvas onSelect={setSelected} />
-      </div>
-      <div className="w-1/4 p-4 overflow-y-auto bg-gray-50">
-        <RegionInfoPanel regionId={selected} />
-      </div>
-    </div>
+    <>
+      {showLaunch ? (
+        <LaunchPage onComplete={handleLaunchComplete} />
+      ) : (
+        <Main />
+      )}
+    </>
   );
 }

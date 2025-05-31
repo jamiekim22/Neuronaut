@@ -3,10 +3,10 @@
 import { useState, useEffect } from "react"
 import { useRegionData, RegionInfo } from "../hooks/useRegionData"
 
-export default function RegionInfoPanel({ 
-  regionId 
-}: { 
-  regionId: string | null 
+export default function RegionInfoPanel({
+  regionId
+}: {
+  regionId: string | null
 }) {
   const { regions, isLoading: regionsLoading, isError } = useRegionData()
   const [useAI, setUseAI] = useState(false)
@@ -47,45 +47,42 @@ export default function RegionInfoPanel({
         setAiLoading(false)
       })
   }, [regionId, useAI, regions])
-
-  if (regionsLoading) return <p>Loading region data…</p>
-  if (isError) return <p className="text-red-500">Error loading region data.</p>
-  if (!regionId) return <p>Click on a region to see details.</p>
+  if (regionsLoading) return <p className="p-4 bg-black/70 backdrop-blur-sm rounded-lg text-white">Loading region data…</p>
+  if (isError) return <p className="p-4 bg-black/70 backdrop-blur-sm rounded-lg text-red-400">Error loading region data.</p>
+  if (!regionId) return <p className="p-4 bg-black/70 backdrop-blur-sm rounded-lg text-gray-300">Click on a region to see details.</p>
 
   const info = regions[regionId]
   if (!info) {
-    return <p className="text-gray-600"> No preset info for &quot;{regionId}&quot;. </p>
+    return <p className="p-4 bg-black/70 backdrop-blur-sm rounded-lg text-gray-400"> No preset info for &quot;{regionId}&quot;. </p>
   }
-
   return (
-    <div className="p-4 bg-white rounded shadow space-y-4">
+    <div className="p-4 bg-black/70 backdrop-blur-sm rounded-lg shadow-lg space-y-4 text-white">
       <div className="flex items-center justify-between">
-        <h2 className="text-xl font-bold">{info.name}</h2>
-        <label className="flex items-center space-x-2 text-sm">
+        <h2 className="text-xl font-bold text-white">{info.name}</h2>
+        <label className="flex items-center space-x-2 text-sm text-white">
           <input
             type="checkbox"
             checked={useAI}
             onChange={() => setUseAI((v) => !v)}
+            className="accent-blue-500"
           />
           <span>Use AI</span>
         </label>
-      </div>
-
-      {aiLoading ? (
-        <p>Generating AI description…</p>
+      </div>      {aiLoading ? (
+        <p className="text-gray-300">Generating AI description…</p>
       ) : (
-        <p>{description}</p>
+        <p className="text-gray-200">{description}</p>
       )}
 
       {info.refs.length > 0 && (
-        <ul className="mt-2 list-disc list-inside text-sm text-gray-600">
+        <ul className="mt-2 list-disc list-inside text-sm text-gray-400">
           {info.refs.map((url) => (
             <li key={url}>
               <a
                 href={url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="underline"
+                className="underline text-blue-300 hover:text-blue-200"
               >
                 Source
               </a>
