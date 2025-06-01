@@ -44,7 +44,7 @@ export default function Scene({
     if (!gltf.scene) return;
 
     // Scale and center the model
-    gltf.scene.scale.setScalar(6);
+    gltf.scene.scale.setScalar(10);
     const box = new THREE.Box3().setFromObject(gltf.scene);
     const center = box.getCenter(new THREE.Vector3());
     gltf.scene.position.sub(center);
@@ -197,9 +197,8 @@ export default function Scene({
             const m = child as THREE.Mesh;
             if (m.material) {
               const mat = m.material as THREE.MeshStandardMaterial;
-              mat.emissive.set(0x00ffdd);
-              mat.emissiveIntensity = 0.5;
-              mat.roughness = 0.2;
+              mat.emissive.set(0x00FF0e);
+              mat.roughness = 0.3; 
             }
           }
         });
@@ -216,7 +215,7 @@ export default function Scene({
 
     // Sine wave pulse effect
     const t = state.clock.getElapsedTime();
-    const pulse = Math.sin(t * 2.0) * 0.35 + 0.4;
+    const pulse = Math.sin(t * 4.0) * 0.6 + 0.7;
 
     // Apply pulse effect to each region
     namesToPulse.forEach((name) => {

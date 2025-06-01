@@ -13,12 +13,45 @@ type Props = {
 export default function BrainCanvas({ onSelect, selectedRegion, sliceValue }: Props) {
   return (
     <Canvas
-      camera={{ position: [0, 1.5, 3], fov: 45 }}
+      camera={{ position: [1.5, 1.0, 3], fov: 45 }}
       gl={{ localClippingEnabled: true }} >
 
-      {/* Lighting */}
+      {/*Lighting*/}
       <ambientLight intensity={0.5} />
-      <directionalLight position={[5, 5, 5]} />
+      <directionalLight
+        intensity={1.0}
+        color={"#FFFFFF"}
+        position={[5, 5, 5]} />
+
+      {/* Pink/Magenta Key Light */}
+      <directionalLight
+        color={"#FF28C9"}
+        intensity={0.6}
+        position={[5, 5, 3]}
+        castShadow={false}
+      />
+
+      {/* Cyan/Aqua Fill Light */}
+      <directionalLight
+        color={"#6EEAE2"}
+        intensity={0.6}
+        position={[-5, 4, 2]}
+        castShadow={false}
+      />
+
+      {/* Red Accent Light Underneath/Behind */}
+      <pointLight
+        color={"#D32E2E"}
+        intensity={0.3}
+        position={[0, -3, -4]}
+      />
+
+      {/* Low‐level Hemisphere/Environment Light */}
+      <hemisphereLight
+        color={"#A1C6C5"}
+        groundColor={"#777777"}
+        intensity={0.3}
+      />
 
       {/* 3D brain model Scene */}
       <Scene
@@ -32,8 +65,8 @@ export default function BrainCanvas({ onSelect, selectedRegion, sliceValue }: Pr
         enablePan={false}
         enableZoom={true}
         enableRotate={true}
-        minDistance={0.5}
-        maxDistance={5}
+        minDistance={1}
+        maxDistance={4}
         target={[0, 0, 0]} // Center point of rotation
         zoomSpeed={2}
       />

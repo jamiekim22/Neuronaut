@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import styles from "./ControlPanel.module.css"; 
 
 interface ControlPanelProps {
   sliceValue: number;             // current slider value, 0–100
@@ -9,21 +10,8 @@ interface ControlPanelProps {
 
 export default function ControlPanel({ sliceValue, onSliceChange }: ControlPanelProps) {
   return (
-    <div
-      style={{
-        position: "absolute",
-        top: "50%",
-        right: "16px",
-        transform: "translateY(-50%)",
-        backgroundColor: "rgba(255, 255, 255, 0.8)",
-        padding: "12px",
-        borderRadius: "8px",
-        boxShadow: "0 2px 8px rgba(0,0,0,0.2)",
-        width: "200px",
-        fontFamily: "sans-serif",
-      }}
-    >
-      <label htmlFor="sliceSlider" style={{ display: "block", marginBottom: "8px", fontSize: "0.9rem" }}>
+    <div className="p-4 bg-black/70 backdrop-blur-sm rounded-lg shadow-lg space-y-4 text-white">
+      <label htmlFor="sliceSlider" className="block mb-2 text-sm">
         Brain Slicing
       </label>
       <input
@@ -33,11 +21,12 @@ export default function ControlPanel({ sliceValue, onSliceChange }: ControlPanel
         max={100}
         value={sliceValue}
         onChange={(e) => onSliceChange(parseFloat(e.target.value))}
-        style={{ width: "100%" }}
+        className={styles.slider}
       />
-      <div style={{ textAlign: "center", marginTop: "4px", fontSize: "0.8rem" }}>
+      <div className="text-center mt-1 text-xs">
         {sliceValue.toFixed(0)}%
       </div>
     </div>
   );
 }
+
