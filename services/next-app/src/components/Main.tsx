@@ -9,7 +9,9 @@ export default function Main() {
     <main>
       <div className="relative h-screen">
         <div className="absolute inset-0">
-          <BrainCanvas onSelect={setSelected} />
+          <BrainCanvas
+            onSelect={setSelected}
+            selectedRegion={selected} />
         </div>
         <div className="absolute left-4 top-4 z-10 max-w-sm">
           <RegionInfoPanel regionId={selected} />

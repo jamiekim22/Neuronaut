@@ -15,7 +15,7 @@ export default function LaunchPage({ onComplete }: LaunchPageProps) {
         }, 400);
 
         // start fading out the entire page
-        const FADE_START_MS = 3500;
+        const FADE_START_MS = 1750;
         const fadeTimeout = setTimeout(() => {
             setPageVisible(false);
             clearInterval(dotsInterval); // Stop dots
