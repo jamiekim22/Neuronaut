@@ -1127,18 +1127,14 @@
     ]
   },
   "Temporal_plane_L": {
-    "name": "Automated planning and scheduling",
-    "desc": "Automated planning and scheduling, sometimes denoted as simply AI planning, is a branch of artificial intelligence that concerns the realization of strategies or action sequences, typically for execution by intelligent agents, autonomous robots and unmanned vehicles. Unlike classical control and classification problems, the solutions are complex and must be discovered and optimized in multidimensional space. Planning is also related to decision theory.",
-    "refs": [
-      "https://en.wikipedia.org/wiki/Automated%20planning%20and%20scheduling"
-    ]
+    "name": "Temporal Plane",
+    "desc": "",
+    "refs": []
   },
   "Temporal_plane_R": {
-    "name": "Automated planning and scheduling",
-    "desc": "Automated planning and scheduling, sometimes denoted as simply AI planning, is a branch of artificial intelligence that concerns the realization of strategies or action sequences, typically for execution by intelligent agents, autonomous robots and unmanned vehicles. Unlike classical control and classification problems, the solutions are complex and must be discovered and optimized in multidimensional space. Planning is also related to decision theory.",
-    "refs": [
-      "https://en.wikipedia.org/wiki/Automated%20planning%20and%20scheduling"
-    ]
+    "name": "Temporal Plane",
+    "desc": "",
+    "refs": []
   },
   "Temporal_pole_L": {
     "name": "Brodmann area 38",
