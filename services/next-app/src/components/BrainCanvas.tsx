@@ -8,20 +8,27 @@ type Props = {
   onSelect: (regionId: string) => void;
   selectedRegion: string | null;
   sliceValue: number;
+  sliceAxis: 'x' | 'y' | 'z';
 };
 
-export default function BrainCanvas({ onSelect, selectedRegion, sliceValue }: Props) {
+export default function BrainCanvas({
+  onSelect,
+  selectedRegion,
+  sliceValue,
+  sliceAxis,
+}: Props) {
   return (
     <Canvas
       camera={{ position: [1.5, 1.0, 3], fov: 45 }}
-      gl={{ localClippingEnabled: true }} >
-
+      gl={{ localClippingEnabled: true }}
+    >
       {/*Lighting*/}
       <ambientLight intensity={0.5} />
       <directionalLight
         intensity={1.0}
         color={"#FFFFFF"}
-        position={[5, 5, 5]} />
+        position={[5, 5, 5]}
+      />
 
       {/* Pink/Magenta Key Light */}
       <directionalLight
@@ -58,6 +65,7 @@ export default function BrainCanvas({ onSelect, selectedRegion, sliceValue }: Pr
         onSelect={onSelect}
         selectedRegion={selectedRegion}
         sliceValue={sliceValue}
+        sliceAxis={sliceAxis} 
       />
 
       {/* Controls */}
@@ -67,7 +75,7 @@ export default function BrainCanvas({ onSelect, selectedRegion, sliceValue }: Pr
         enableRotate={true}
         minDistance={1}
         maxDistance={4}
-        target={[0, 0, 0]} // Center point of rotation
+        target={[0, 0, 0]} // Middle of rotation
         zoomSpeed={2}
       />
     </Canvas>

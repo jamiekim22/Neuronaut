@@ -10,7 +10,8 @@ import { useEffect, useRef, useState } from "react";
 interface SceneProps {
   onSelect: (id: string) => void;
   selectedRegion: string | null;
-  sliceValue: number;        // from 0 to 100
+  sliceValue: number; 
+  sliceAxis: 'x' | 'y' | 'z'; // TODO: axis handling not implemented yet
 }
 
 export default function Scene({
