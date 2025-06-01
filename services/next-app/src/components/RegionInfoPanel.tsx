@@ -84,10 +84,10 @@ export default function RegionInfoPanel({
   }
   
   return (
-    <div className="p-4 bg-black/70 backdrop-blur-sm rounded-lg shadow-lg space-y-4 text-white">
+    <div className="min-w-120 p-6 bg-black/70 backdrop-blur-sm rounded-lg shadow-lg space-y-6 text-white">
       <div className="flex items-center justify-between">
-        <h2 className="text-xl font-bold text-white">{info.name}</h2>
-        <label className="flex items-center space-x-2 text-sm text-white">
+        <h2 className="text-2xl font-bold">{info.name}</h2>
+        <label className="flex items-center space-x-2 text-sm">
           <input
             type="checkbox"
             checked={useAI}
@@ -99,18 +99,21 @@ export default function RegionInfoPanel({
       </div>
 
       {aiLoading ? (
-        <p className="text-gray-300">Generating AI description…</p>
+        <p className="text-lg text-gray-300">Generating AI description…</p>
       ) : (
-        <p className="text-gray-200">
+        <p className="text-lg text-gray-200">
           {displayedText}
-          <span className="inline-block w-1 h-5 ml-1 bg-gray-300 animate-pulse" style={{
-            animationDuration: '1.5s'
-          }}>|</span>
+          <span
+            className="w-1 h-5 ml-1 bg-gray-300 animate-pulse"
+            style={{ animationDuration: '1.5s' }}
+          >
+            |
+          </span>
         </p>
       )}
 
       {info.refs.length > 0 && (
-        <ul className="mt-2 list-disc list-inside text-sm text-gray-400">
+        <ul className="mt-2 list-disc list-inside text-base text-gray-400">
           {info.refs.map((url) => (
             <li key={url}>
               <a
