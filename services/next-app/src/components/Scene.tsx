@@ -1,6 +1,6 @@
 "use client";
 
-import { useLoader, useThree } from "@react-three/fiber";
+import { useLoader, useThree, useFrame } from "@react-three/fiber";
 import type { ThreeEvent } from "@react-three/fiber";
 import { GLTFLoader } from "three-stdlib";
 import { DRACOLoader } from "three-stdlib";
@@ -20,16 +20,15 @@ export default function Scene({
 }: SceneProps) {
   const groupRef = useRef<THREE.Group>(null);
   const regionNodesRef = useRef<Map<string, THREE.Object3D>>(new Map());
-  const previousSelectedRef = useRef<THREE.Object3D | null>(null);
 
-  // Clipping‐slice bookkeeping (unchanged)
+  // Clipping plane state management
   const [minZ, setMinZ] = useState<number>(0);
   const [maxZ, setMaxZ] = useState<number>(0);
   const slicingPlaneRef = useRef<THREE.Plane>(
     new THREE.Plane(new THREE.Vector3(0, 0, -1), 0)
   );
 
-  // Load GLTF with Draco (unchanged)
+  // Load brain model with Draco compression
   const gltf = useLoader(
     GLTFLoader,
     "/models/brain-draco.glb",
@@ -40,42 +39,40 @@ export default function Scene({
     }
   );
 
-  // ─── When GLTF loads: scale/center, clone each mesh’s material, record minZ/maxZ, assign clippingPlanes ───
+  // Process loaded GLTF model: scale, center, clone materials, setup clipping
   useEffect(() => {
     if (!gltf.scene) return;
 
-    // 1) Scale & center the model
+    // Scale and center the model
     gltf.scene.scale.setScalar(6);
     const box = new THREE.Box3().setFromObject(gltf.scene);
     const center = box.getCenter(new THREE.Vector3());
     gltf.scene.position.sub(center);
 
-    // 2) Compute world‐space bounding box so we know minZ & maxZ
+    // Calculate world-space bounding box for Z-axis limits
     const worldBox = new THREE.Box3().setFromObject(gltf.scene);
     setMinZ(worldBox.min.z);
     setMaxZ(worldBox.max.z);
 
-    // 3) Populate regionNodesRef
+    // Map region names to objects and setup materials
     regionNodesRef.current.clear();
     gltf.scene.children.forEach((obj) => {
       const regionName = obj.name.replace(/^_+/, "").replace(/[\*\?]/g, "");
       regionNodesRef.current.set(regionName, obj);
 
-      // Before assigning clippingPlanes, clone each mesh’s material so it’s unique:
+      // Clone materials and assign clipping planes
       obj.traverse((child) => {
         if ((child as THREE.Mesh).isMesh) {
           const mesh = child as THREE.Mesh;
 
-          // CLONE MATERIAL HERE:
+          // Clone material to avoid shared references
           if (Array.isArray(mesh.material)) {
-            // If the mesh has an array of materials, clone each one
             mesh.material = mesh.material.map((mat) => mat.clone());
           } else {
-            // Otherwise, just clone the single material
             mesh.material = (mesh.material as THREE.Material).clone();
           }
 
-          // Now that it's a unique material, you can safely assign clippingPlanes
+          // Apply clipping plane to cloned material
           const matOrArray = mesh.material;
           if (Array.isArray(matOrArray)) {
             matOrArray.forEach((mat) => {
@@ -94,18 +91,18 @@ export default function Scene({
       });
     });
 
-    // 4) Add the loaded/corrected scene to our group
+    // Add processed scene to render group
     groupRef.current?.add(gltf.scene);
   }, [gltf]);
 
-  // Whenever sliceValue changes, update the clipping plane’s constant (unchanged)
+  // Update clipping plane position based on slice value
   useEffect(() => {
     if (maxZ <= minZ) return;
     const worldZ = THREE.MathUtils.lerp(minZ, maxZ, sliceValue / 100);
     slicingPlaneRef.current.constant = worldZ;
   }, [sliceValue, minZ, maxZ]);
 
-  // Raycasting for region selection (unchanged)
+  // Handle region selection via raycasting
   const { camera, gl } = useThree();
   const raycaster = useRef(new THREE.Raycaster());
 
@@ -122,10 +119,10 @@ export default function Scene({
 
     for (let i = 0; i < intersects.length; i++) {
       const { object: hitObj, point } = intersects[i];
-      // Skip hits that lie above (clipped away)
+      // Skip intersection points above clipping plane
       if (point.z > slicePlaneZ + 1e-4) continue;
 
-      // Climb up until we hit a top‐level region node
+      // Traverse up object hierarchy to find region root
       let searchObject: THREE.Object3D | null = hitObj;
       while (searchObject && !allRegions.includes(searchObject)) {
         searchObject = searchObject.parent;
@@ -141,12 +138,38 @@ export default function Scene({
     }
   };
 
-    // ─── HIGHLIGHTING LOGIC (fixed to de-highlight L & R pairs) ───
-  // Use an array to remember *all* previously highlighted roots
+  // Helper function to determine which regions to process based on L/R naming convention
+  const getRegionsToProcess = (regionName: string): string[] => {
+    const regionsToProcess: string[] = [];
+    const match = regionName.match(/^(.+)_([LR])$/);
+    
+    if (match) {
+      const base = match[1];
+      const leftName = `${base}_L`;
+      const rightName = `${base}_R`;
+
+      if (regionNodesRef.current.has(leftName)) regionsToProcess.push(leftName);
+      if (regionNodesRef.current.has(rightName)) regionsToProcess.push(rightName);
+
+      // Fallback to exact match if bilateral regions not found
+      if (regionsToProcess.length === 0 && regionNodesRef.current.has(regionName)) {
+        regionsToProcess.push(regionName);
+      }
+    } else {
+      // Single region without L/R suffix
+      if (regionNodesRef.current.has(regionName)) {
+        regionsToProcess.push(regionName);
+      }
+    }
+
+    return regionsToProcess;
+  };
+
+  // ────── Region highlighting ──────
   const previousSelectedRefs = useRef<THREE.Object3D[]>([]);
 
   useEffect(() => {
-    // 1) Clear all previously highlighted regions (each root in the array)
+    // Clear previous highlighting
     previousSelectedRefs.current.forEach((oldRoot) => {
       oldRoot.traverse((child) => {
         if ((child as THREE.Mesh).isMesh) {
@@ -154,44 +177,18 @@ export default function Scene({
           if (m.material) {
             const mat = m.material as THREE.MeshStandardMaterial;
             mat.emissive.set(0x000000);
-            mat.emissiveIntensity = 1;
+            mat.emissiveIntensity = 0;
           }
         }
       });
     });
-    // Reset the array
     previousSelectedRefs.current = [];
 
-    // 2) If nothing is selected, do nothing more
     if (!selectedRegion) return;
 
-    // 3) Build a list of region‐keys to highlight
-    const namesToHighlight: string[] = [];
-    const match = selectedRegion.match(/^(.+)_([LR])$/);
-    if (match) {
-      const base = match[1];                // e.g. "Inferior frontal sulcus"
-      const leftName = `${base}_L`;         // "Inferior frontal sulcus_L"
-      const rightName = `${base}_R`;        // "Inferior frontal sulcus_R"
+    const namesToHighlight = getRegionsToProcess(selectedRegion);
 
-      // If each exists, push it
-      if (regionNodesRef.current.has(leftName))  namesToHighlight.push(leftName);
-      if (regionNodesRef.current.has(rightName)) namesToHighlight.push(rightName);
-
-      // If neither exists, fall back to the exact selectedRegion
-      if (
-        namesToHighlight.length === 0 &&
-        regionNodesRef.current.has(selectedRegion)
-      ) {
-        namesToHighlight.push(selectedRegion);
-      }
-    } else {
-      // No _L or _R suffix, just highlight that exact key if it exists
-      if (regionNodesRef.current.has(selectedRegion)) {
-        namesToHighlight.push(selectedRegion);
-      }
-    }
-
-    // 4) Highlight each named root and add it to previousSelectedRefs
+    // Apply highlighting to selected regions
     namesToHighlight.forEach((name) => {
       const root = regionNodesRef.current.get(name);
       if (root) {
@@ -201,7 +198,7 @@ export default function Scene({
             if (m.material) {
               const mat = m.material as THREE.MeshStandardMaterial;
               mat.emissive.set(0x00ffdd);
-              mat.emissiveIntensity = 0.8;
+              mat.emissiveIntensity = 0.5;
               mat.roughness = 0.2;
             }
           }
@@ -211,6 +208,32 @@ export default function Scene({
     });
   }, [selectedRegion]);
 
-  // Render only the group
+  // Pulse animation for highlighted regions
+  useFrame((state) => {
+    if (!selectedRegion) return;
+
+    const namesToPulse = getRegionsToProcess(selectedRegion);
+
+    // Sine wave pulse effect
+    const t = state.clock.getElapsedTime();
+    const pulse = Math.sin(t * 2.0) * 0.35 + 0.4;
+
+    // Apply pulse effect to each region
+    namesToPulse.forEach((name) => {
+      const root = regionNodesRef.current.get(name);
+      if (root) {
+        root.traverse((child) => {
+          if ((child as THREE.Mesh).isMesh) {
+            const m = child as THREE.Mesh;
+            if (m.material) {
+              const mat = m.material as THREE.MeshStandardMaterial;
+              mat.emissiveIntensity = pulse;
+            }
+          }
+        });
+      }
+    });
+  });
+
   return <group ref={groupRef} onPointerDown={handlePointerDown} />;
 }
