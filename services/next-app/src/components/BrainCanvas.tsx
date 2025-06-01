@@ -6,22 +6,28 @@ import Scene from "./Scene";
 
 type Props = {
   onSelect: (regionId: string) => void;
-  selectedRegion: string | null; // Optional prop for selected region
+  selectedRegion: string | null;
+  sliceValue: number;
 };
 
-export default function BrainCanvas({ onSelect, selectedRegion }: Props) {
+export default function BrainCanvas({ onSelect, selectedRegion, sliceValue }: Props) {
   return (
-    <Canvas camera={{ position: [0, 1.5, 3], fov: 45 }}>
-      {/* lighting */}
+    <Canvas
+      camera={{ position: [0, 1.5, 3], fov: 45 }}
+      gl={{ localClippingEnabled: true }} >
+
+      {/* Lighting */}
       <ambientLight intensity={0.5} />
       <directionalLight position={[5, 5, 5]} />
 
       {/* 3D brain model Scene */}
       <Scene
         onSelect={onSelect}
-        selectedRegion={selectedRegion} />
+        selectedRegion={selectedRegion}
+        sliceValue={sliceValue}
+      />
 
-      {/* controls */}
+      {/* Controls */}
       <OrbitControls
         enablePan={false}
         enableZoom={true}
