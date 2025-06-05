@@ -1,3 +1,5 @@
 fastapi
 uvicorn[standard]
-# torch or tensorflow, transformers, etc.
+torch
+transformers
+sentencepiece
