@@ -12,3 +12,5 @@ services:
     build: ./services/ai-service
     ports:
       - "5000:5000"
+    environment:
+      - GITHUB_AI_TOKEN=${GITHUB_AI_TOKEN}
