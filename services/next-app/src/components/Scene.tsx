@@ -18,13 +18,19 @@ export default function Scene({
   onSelect,
   selectedRegion,
   sliceValue,
+  sliceAxis,
 }: SceneProps) {
   const groupRef = useRef<THREE.Group>(null);
   const regionNodesRef = useRef<Map<string, THREE.Object3D>>(new Map());
 
   // Clipping plane state management
+  const [minX, setMinX] = useState<number>(0);
+  const [maxX, setMaxX] = useState<number>(0);
+  const [minY, setMinY] = useState<number>(0);
+  const [maxY, setMaxY] = useState<number>(0);
   const [minZ, setMinZ] = useState<number>(0);
   const [maxZ, setMaxZ] = useState<number>(0);
+
   const slicingPlaneRef = useRef<THREE.Plane>(
     new THREE.Plane(new THREE.Vector3(0, 0, -1), 0)
   );
@@ -52,6 +58,10 @@ export default function Scene({
 
     // Calculate world-space bounding box for Z-axis limits
     const worldBox = new THREE.Box3().setFromObject(gltf.scene);
+    setMinX(worldBox.min.x);
+    setMaxX(worldBox.max.x);
+    setMinY(worldBox.min.y);
+    setMaxY(worldBox.max.y);
     setMinZ(worldBox.min.z);
     setMaxZ(worldBox.max.z);
 
@@ -98,10 +108,29 @@ export default function Scene({
 
   // Update clipping plane position based on slice value
   useEffect(() => {
-    if (maxZ <= minZ) return;
-    const worldZ = THREE.MathUtils.lerp(minZ, maxZ, sliceValue / 100);
-    slicingPlaneRef.current.constant = worldZ;
-  }, [sliceValue, minZ, maxZ]);
+    const plane = slicingPlaneRef.current;
+
+    if (sliceAxis === "x") {
+      plane.normal.set(-1, 0, 0);
+      if (maxX <= minX) return;
+      const worldX = THREE.MathUtils.lerp(minX, maxX, sliceValue / 100);
+      plane.constant = worldX;
+    } else if (sliceAxis === "y") {
+      plane.normal.set(0, -1, 0);
+      if (maxY <= minY) return;
+      const worldY = THREE.MathUtils.lerp(minY, maxY, sliceValue / 100);
+      plane.constant = worldY;
+    } else {
+      plane.normal.set(0, 0, -1);
+      if (maxZ <= minZ) return;
+      const worldZ = THREE.MathUtils.lerp(minZ, maxZ, sliceValue / 100);
+      plane.constant = worldZ;
+    }
+
+  }, [
+    sliceValue, sliceAxis,
+    minX,maxX,minY,maxY,minZ,maxZ,
+  ]);
 
   // Handle region selection via raycasting
   const { camera, gl } = useThree();
@@ -116,12 +145,14 @@ export default function Scene({
 
     const allRegions = Array.from(regionNodesRef.current.values());
     const intersects = raycaster.current.intersectObjects(allRegions, true);
-    const slicePlaneZ = slicingPlaneRef.current.constant;
+    const slicePlane = slicingPlaneRef.current.constant;
 
     for (let i = 0; i < intersects.length; i++) {
       const { object: hitObj, point } = intersects[i];
       // Skip intersection points above clipping plane
-      if (point.z > slicePlaneZ + 1e-4) continue;
+      if (sliceAxis === "x" && point.x > slicePlane + 1e-4) continue;
+      if (sliceAxis === "y" && point.y > slicePlane + 1e-4) continue;
+      if (sliceAxis === "z" && point.z > slicePlane + 1e-4) continue;
 
       // Traverse up object hierarchy to find region root
       let searchObject: THREE.Object3D | null = hitObj;
