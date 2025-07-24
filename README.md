@@ -27,7 +27,7 @@ Available at: [Neuronaut](https://neuronaut.vercel.app)
 
 ---
 
-## 🗺️ Roadmap
+## 🗺️ Roadmap - In progress!
 
 - [x] Interactive 3D brain navigation
 - [x] Region highlighting & info overlays
